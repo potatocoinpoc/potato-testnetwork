@@ -1,0 +1,10 @@
+#!/bin/bash
+./pcbpa/clean.sh
+./pcbpd/clean.sh
+./pcbpe/clean.sh
+./pcbpf/clean.sh
+./pcbpg/clean.sh
+./pcbph/clean.sh
+./pcbpi/clean.sh
+./pcbpj/clean.sh
+./pcbpk/clean.sh
