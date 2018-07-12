@@ -1,9 +1,9 @@
 #!/bin/bash
-./pcbpc/clean.sh
-./pcbpt/clean.sh
-./pcbpu/clean.sh
-./pcbpv/clean.sh
-./pcbpw/clean.sh
-./pcbpx/clean.sh
-./pcbpy/clean.sh
-./pcbpz/clean.sh
+cd ./pcbpc && ./clean.sh && cd ..
+cd ./pcbpt && ./clean.sh && cd ..
+cd ./pcbpu && ./clean.sh && cd ..
+cd ./pcbpv && ./clean.sh && cd ..
+cd ./pcbpw && ./clean.sh && cd ..
+cd ./pcbpx && ./clean.sh && cd ..
+cd ./pcbpy && ./clean.sh && cd ..
+cd ./pcbpz && ./clean.sh && cd ..
