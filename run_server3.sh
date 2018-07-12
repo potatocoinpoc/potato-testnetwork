@@ -1,9 +1,9 @@
 #!/bin/bash
-screen -dmS pcbpc ./pcbpc/run.sh
-screen -dmS pcbpt ./pcbpt/run.sh
-screen -dmS pcbpu ./pcbpu/run.sh
-screen -dmS pcbpv ./pcbpv/run.sh
-screen -dmS pcbpw ./pcbpw/run.sh
-screen -dmS pcbpx ./pcbpx/run.sh
-screen -dmS pcbpy ./pcbpy/run.sh
-screen -dmS pcbpz ./pcbpz/run.sh
+cd ./pcbpc && screen -dmS pcbpc ./run.sh && cd ..
+cd ./pcbpt && screen -dmS pcbpt ./run.sh && cd ..
+cd ./pcbpu && screen -dmS pcbpu ./run.sh && cd ..
+cd ./pcbpv && screen -dmS pcbpv ./run.sh && cd ..
+cd ./pcbpw && screen -dmS pcbpw ./run.sh && cd ..
+cd ./pcbpx && screen -dmS pcbpx ./run.sh && cd ..
+cd ./pcbpy && screen -dmS pcbpy ./run.sh && cd ..
+cd ./pcbpz && screen -dmS pcbpz ./run.sh && cd ..

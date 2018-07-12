@@ -1,10 +1,10 @@
 #!/bin/bash
-screen -dmS pcbpa ./pcbpa/run.sh
-screen -dmS pcbpd ./pcbpd/run.sh
-screen -dmS pcbpe ./pcbpe/run.sh
-screen -dmS pcbpf ./pcbpf/run.sh
-screen -dmS pcbpg ./pcbpg/run.sh
-screen -dmS pcbph ./pcbph/run.sh
-screen -dmS pcbpi ./pcbpi/run.sh
-screen -dmS pcbpj ./pcbpj/run.sh
-screen -dmS pcbpk ./pcbpk/run.sh
+cd  ./pcbpa && screen -dmS pcbpa ./run.sh && cd ..
+cd  ./pcbpd && screen -dmS pcbpd ./run.sh && cd ..
+cd  ./pcbpe && screen -dmS pcbpe ./run.sh && cd ..
+cd  ./pcbpf && screen -dmS pcbpf ./run.sh && cd ..
+cd  ./pcbpg && screen -dmS pcbpg ./run.sh && cd ..
+cd  ./pcbph && screen -dmS pcbph ./run.sh && cd ..
+cd  ./pcbpi && screen -dmS pcbpi ./run.sh && cd ..
+cd  ./pcbpj && screen -dmS pcbpj ./run.sh && cd ..
+cd  ./pcbpk && screen -dmS pcbpk ./run.sh && cd ..
