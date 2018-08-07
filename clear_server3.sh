@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ./pcbpc && ./clean.sh && cd ..
+cd ./pcbps && ./clean.sh && cd ..
 cd ./pcbpt && ./clean.sh && cd ..
 cd ./pcbpu && ./clean.sh && cd ..
 cd ./pcbpv && ./clean.sh && cd ..
