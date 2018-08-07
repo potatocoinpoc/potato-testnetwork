@@ -1,3 +1,3 @@
 #!/bin/bash
 
-~/potato/nodeos --genesis-json ~/potato_test/genesis.json --blocks-dir ~/potato_test/pcbpi/blocks --config-dir ~/potato_test/pcbpi/ --data-dir ~/potato_test/pcbpi/ 
+~/potato/nodeos --genesis-json ../genesis.json --blocks-dir ./blocks --config-dir ./ --data-dir ./ 
