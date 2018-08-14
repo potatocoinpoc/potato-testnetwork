@@ -1,9 +1,9 @@
 #!/bin/bash
-cd ./pcbps && screen -dmS pcbps ./run.sh && cd .. && ping 127.0.0.1 -c 1
-cd ./pcbpt && screen -dmS pcbpt ./run.sh && cd .. && ping 127.0.0.1 -c 1
-cd ./pcbpu && screen -dmS pcbpu ./run.sh && cd .. && ping 127.0.0.1 -c 1
-cd ./pcbpv && screen -dmS pcbpv ./run.sh && cd .. && ping 127.0.0.1 -c 1
-cd ./pcbpw && screen -dmS pcbpw ./run.sh && cd .. && ping 127.0.0.1 -c 1
-cd ./pcbpx && screen -dmS pcbpx ./run.sh && cd .. && ping 127.0.0.1 -c 1
-cd ./pcbpy && screen -dmS pcbpy ./run.sh && cd .. && ping 127.0.0.1 -c 1
-cd ./pcbpz && screen -dmS pcbpz ./run.sh && cd .. && ping 127.0.0.1 -c 1
+cd ./pcbps && ./run.sh && cd .. && sleep 1
+cd ./pcbpt && ./run.sh && cd .. && sleep 1
+cd ./pcbpu && ./run.sh && cd .. && sleep 1
+cd ./pcbpv && ./run.sh && cd .. && sleep 1
+cd ./pcbpw && ./run.sh && cd .. && sleep 1
+cd ./pcbpx && ./run.sh && cd .. && sleep 1
+cd ./pcbpy && ./run.sh && cd .. && sleep 1
+cd ./pcbpz && ./run.sh && cd .. && sleep 1
