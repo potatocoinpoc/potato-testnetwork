@@ -5,21 +5,21 @@
 <!-- TOC -->
 
 - [节点程序参数说明](#节点程序参数说明)
-    - [nodeos 程序参数说明](#nodeos-程序参数说明)
-    - [pcoin::bnet_plugin 插件参数说明](#pcoinbnet_plugin-插件参数说明)
-        - [pcoin::chain_plugin 插件参数说明](#pcoinchain_plugin-插件参数说明)
-        - [pcoin::http_plugin 插件参数说明](#pcoinhttp_plugin-插件参数说明)
-        - [pcoin::mongo_db_plugin 插件参数说明](#pcoinmongo_db_plugin-插件参数说明)
-        - [pcoin::net_plugin 插件参数说明](#pcoinnet_plugin-插件参数说明)
-        - [pcoin::producer_plugin 插件参数说明](#pcoinproducer_plugin-插件参数说明)
-        - [pcoin::wallet_plugin 插件参数说明](#pcoinwallet_plugin-插件参数说明)
+    - [nodepc 程序参数说明](#nodepc-程序参数说明)
+    - [potato::bnet_plugin 插件参数说明](#potatobnet_plugin-插件参数说明)
+        - [potato::chain_plugin 插件参数说明](#potatochain_plugin-插件参数说明)
+        - [potato::http_plugin 插件参数说明](#potatohttp_plugin-插件参数说明)
+        - [potato::mongo_db_plugin 插件参数说明](#potatomongo_db_plugin-插件参数说明)
+        - [potato::net_plugin 插件参数说明](#potatonet_plugin-插件参数说明)
+        - [potato::producer_plugin 插件参数说明](#potatoproducer_plugin-插件参数说明)
+        - [potato::wallet_plugin 插件参数说明](#potatowallet_plugin-插件参数说明)
     - [默认配置文件示例](#默认配置文件示例)
 
 <!-- /TOC -->
 
 除了打印输出参数，大部分都可以在配置文件里配置，直接由控制台传入的参数会覆盖配置文件中的参数。参数括号内的为默认值。
 
-## nodeos 程序参数说明
+## nodepc 程序参数说明
 
 | 参数                               | 说明                                              |
 | ---------------------------------- | ------------------------------------------------- |
@@ -32,7 +32,7 @@
 | -l / --logconf arg (=logging.json) | 指定日志配置文件名及路径（默认名为 logging.json） |
 | --plugin arg                       | 启用插件，可重复                                  |
 
-## pcoin::bnet_plugin 插件参数说明
+## potato::bnet_plugin 插件参数说明
 
 bnet_plugin 插件主要功能是同步区块
 
@@ -44,7 +44,7 @@ bnet_plugin 插件主要功能是同步区块
 | --bnet-connect arg                  | 远程节点地址; 可以根据需要多个节点组成一个网络 |
 | --bnet-no-trx                       | 请求其他节点没有挂起的事务                     |
 
-### pcoin::chain_plugin 插件参数说明
+### potato::chain_plugin 插件参数说明
 
 chain_plugin 插件主要功能是区块读写、执行合约，默认开启。
 
@@ -83,7 +83,7 @@ chain_plugin 插件主要功能是区块读写、执行合约，默认开启。
 | --import-reversible-blocks arg | 用从指定文件导入的块替换可逆块数据库，然后退出
 | --export-reversible-blocks arg | 以可移植格式将可逆块数据库导出到指定文件然后退出
 
-### pcoin::http_plugin 插件参数说明
+### potato::http_plugin 插件参数说明
 
 http_plugin 插件主要功能是提供 http/https 服务，默认开启。
 
@@ -102,19 +102,19 @@ http_plugin 插件主要功能是提供 http/https 服务，默认开启。
 | --http-validate-host arg (=false) |验证 host，如果设置为 false，则任何传入的“host”标头都被视为有效
 | --http-alias arg |此外，可以多次指定传入 HTTP 请求的“主机”标头的可接受值。 默认情况下包括 http/https 服务器地址。
 
-### pcoin::mongo_db_plugin 插件参数说明
+### potato::mongo_db_plugin 插件参数说明
 
 mongo_db_plugin 插件主要功能是提供交易信息二次整理存储功能，方便第三方查询。
 
 |参数|说明|
 |--|--|
-| -q [ --mongodb-queue-size ] arg (=1024) | nodeos 和 MongoDB 插件线程之间的目标队列大小。
+| -q [ --mongodb-queue-size ] arg (=1024) | nodepc 和 MongoDB 插件线程之间的目标队列大小。
 | --mongodb-abi-cache-size arg (=2048)    | 用于序列化数据的 abi 缓存的最大大小。
 | --mongodb-wipe                          | 需要同时使用--replay-blockchain，--hard-replay-blockchain 或--delete-all-blocks 来擦除 mongodb。 此选项需要防止意外擦除 mongodb。
 | --mongodb-block-start arg (=0)          | 如果指定，那么只有 abi 数据被推送到 mongodb，直接从指定的块开始。
 | -m [ --mongodb-uri ] arg                | MongoDB URI 连接字符串, 查看: https://docs.mongodb.com/master/reference/connection-string/ . 如果未指定，则禁用插件. 如果未在 URI 中指定，则使用默认数据库'POTATO'。 <br> 示例: mongodb://127.0.0.1:27017/POTATO |
 
-### pcoin::net_plugin 插件参数说明
+### potato::net_plugin 插件参数说明
 
 net_plugin 插件主要提供 p2p 网络通信、区块同步功能，默认开启。
 
@@ -124,7 +124,7 @@ net_plugin 插件主要提供 p2p 网络通信、区块同步功能，默认开�
 | --p2p-server-address arg                  | 外部可访问的主机：用于标识此节点的端口。 默认为 p2p-listen-endpoint。
 | --p2p-peer-address arg                    | 要连接的 p2p 节点的公共节点。 <br>根据需要使用多个 p2p-peer-address 选项来组成网络。
 | --p2p-max-nodes-per-host arg (=1)         | 来自任何单个 IP 地址的最大客户端节点数
-| --agent-name arg (="Pcoin Test Agent")    | 提供的名称用于在 p2p 中标识此节点。
+| --agent-name arg (="potato Test Agent")    | 提供的名称用于在 p2p 中标识此节点。
 | --allowed-connection arg (=any)           | 允许连接的节点类型。可以是“any”或“producers”或“specified”或“none”。如果'specified'，则必须至少指定一次 peer-key。<br> 如果只是'producer'，则不需要 peer-key。 “producers”和“specified”可以合并。
 | --peer-key arg                            | 允许连接的可选公钥。 （可重复）
 | --peer-private-key arg                    | [公钥,私钥]组，（可重复）
@@ -135,7 +135,7 @@ net_plugin 插件主要提供 p2p 网络通信、区块同步功能，默认开�
 | --max-implicit-request arg (=1500)        | 在未先发送通知的情况下发送的最大事务或块消息大小
 | --use-socket-read-watermark arg (=0)      | 启用实验套接字读取水印优化
 
-### pcoin::producer_plugin 插件参数说明
+### potato::producer_plugin 插件参数说明
 
 producer_plugin 插件主要提供区块生产功能，默认开启。
 
@@ -152,7 +152,7 @@ producer_plugin 插件主要提供区块生产功能，默认开启。
 | --produce-time-offset-us arg (=0) | 非最后一个块的偏移产生时间以微秒为单位。 负数导致块越快出现，正数导致块稍后出去
 | --last-block-time-offset-us arg (=0) | 最后一个块的偏移量以微秒为单位产生时间。 负数导致块越快出现，正数导致块稍后出去
 
-### pcoin::wallet_plugin 插件参数说明
+### potato::wallet_plugin 插件参数说明
 
 wallet_plugin 插件主要私钥生成和保存功能。
 
@@ -165,149 +165,149 @@ wallet_plugin 插件主要私钥生成和保存功能。
 ## 默认配置文件示例
 
 ```ini
-# the endpoint upon which to listen for incoming connections (pcoin::bnet_plugin)
+# the endpoint upon which to listen for incoming connections (potato::bnet_plugin)
 bnet-endpoint = 0.0.0.0:4321
 
-# the number of threads to use to process network messages (pcoin::bnet_plugin)
+# the number of threads to use to process network messages (potato::bnet_plugin)
 # bnet-threads =
 
-# remote endpoint of other node to connect to; Use multiple bnet-connect options as needed to compose a network (pcoin::bnet_plugin)
+# remote endpoint of other node to connect to; Use multiple bnet-connect options as needed to compose a network (potato::bnet_plugin)
 # bnet-connect =
 
-# this peer will request no pending transactions from other nodes (pcoin::bnet_plugin)
+# this peer will request no pending transactions from other nodes (potato::bnet_plugin)
 bnet-no-trx = false
 
-# the location of the blocks directory (absolute path or relative to application data dir) (pcoin::chain_plugin)
+# the location of the blocks directory (absolute path or relative to application data dir) (potato::chain_plugin)
 blocks-dir = "blocks"
 
-# Pairs of [BLOCK_NUM,BLOCK_ID] that should be enforced as checkpoints. (pcoin::chain_plugin)
+# Pairs of [BLOCK_NUM,BLOCK_ID] that should be enforced as checkpoints. (potato::chain_plugin)
 # checkpoint =
 
-# Override default WASM runtime (pcoin::chain_plugin)
+# Override default WASM runtime (potato::chain_plugin)
 # wasm-runtime =
 
-# Maximum size (in MB) of the chain state database (pcoin::chain_plugin)
+# Maximum size (in MB) of the chain state database (potato::chain_plugin)
 chain-state-db-size-mb = 1024
 
-# Maximum size (in MB) of the reversible blocks database (pcoin::chain_plugin)
+# Maximum size (in MB) of the reversible blocks database (potato::chain_plugin)
 reversible-blocks-db-size-mb = 340
 
-# print contract's output to console (pcoin::chain_plugin)
+# print contract's output to console (potato::chain_plugin)
 contracts-console = false
 
-# Account added to actor whitelist (may specify multiple times) (pcoin::chain_plugin)
+# Account added to actor whitelist (may specify multiple times) (potato::chain_plugin)
 # actor-whitelist =
 
-# Account added to actor blacklist (may specify multiple times) (pcoin::chain_plugin)
+# Account added to actor blacklist (may specify multiple times) (potato::chain_plugin)
 # actor-blacklist =
 
-# Contract account added to contract whitelist (may specify multiple times) (pcoin::chain_plugin)
+# Contract account added to contract whitelist (may specify multiple times) (potato::chain_plugin)
 # contract-whitelist =
 
-# Contract account added to contract blacklist (may specify multiple times) (pcoin::chain_plugin)
+# Contract account added to contract blacklist (may specify multiple times) (potato::chain_plugin)
 # contract-blacklist =
 
-# Track actions which match receiver:action:actor. Actor may be blank to include all. Receiver and Action may not be blank. (pcoin::history_plugin)
+# Track actions which match receiver:action:actor. Actor may be blank to include all. Receiver and Action may not be blank. (potato::history_plugin)
 # filter-on = *
 
 # PEM encoded trusted root certificate (or path to file containing one) used to validate any TLS connections made.  (may specify multiple times)
-#  (pcoin::http_client_plugin)
+#  (potato::http_client_plugin)
 # https-client-root-cert =
 
-# true: validate that the peer certificates are valid and trusted, false: ignore cert errors (pcoin::http_client_plugin)
+# true: validate that the peer certificates are valid and trusted, false: ignore cert errors (potato::http_client_plugin)
 https-client-validate-peers = 1
 
-# The local IP and port to listen for incoming http connections; set blank to disable. (pcoin::http_plugin)
+# The local IP and port to listen for incoming http connections; set blank to disable. (potato::http_plugin)
 http-server-address = 0.0.0.0:8888
 
-# The local IP and port to listen for incoming https connections; leave blank to disable. (pcoin::http_plugin)
+# The local IP and port to listen for incoming https connections; leave blank to disable. (potato::http_plugin)
 https-server-address = 0.0.0.0:443
 
-# Filename with the certificate chain to present on https connections. PEM format. Required for https. (pcoin::http_plugin)
+# Filename with the certificate chain to present on https connections. PEM format. Required for https. (potato::http_plugin)
 https-certificate-chain-file = /etc/letsencrypt/live/jocky123.com/fullchain.pem
 
-# Filename with https private key in PEM format. Required for https (pcoin::http_plugin)
+# Filename with https private key in PEM format. Required for https (potato::http_plugin)
 https-private-key-file = /etc/letsencrypt/live/jocky123.com/privkey.pem
 
-# Specify the Access-Control-Allow-Origin to be returned on each request. (pcoin::http_plugin)
+# Specify the Access-Control-Allow-Origin to be returned on each request. (potato::http_plugin)
 access-control-allow-origin = *
 
-# Specify the Access-Control-Allow-Headers to be returned on each request. (pcoin::http_plugin)
+# Specify the Access-Control-Allow-Headers to be returned on each request. (potato::http_plugin)
 # access-control-allow-headers =
 
-# Specify the Access-Control-Max-Age to be returned on each request. (pcoin::http_plugin)
+# Specify the Access-Control-Max-Age to be returned on each request. (potato::http_plugin)
 # access-control-max-age =
 
-# Specify if Access-Control-Allow-Credentials: true should be returned on each request. (pcoin::http_plugin)
+# Specify if Access-Control-Allow-Credentials: true should be returned on each request. (potato::http_plugin)
 access-control-allow-credentials = false
 
-# The maximum body size in bytes allowed for incoming RPC requests (pcoin::http_plugin)
+# The maximum body size in bytes allowed for incoming RPC requests (potato::http_plugin)
 max-body-size = 1048576
 
-# Append the error log to HTTP responses (pcoin::http_plugin)
+# Append the error log to HTTP responses (potato::http_plugin)
 verbose-http-errors = false
 
-# If set to false, then any incoming "Host" header is considered valid (pcoin::http_plugin)
+# If set to false, then any incoming "Host" header is considered valid (potato::http_plugin)
 http-validate-host = 0
 
-# Additionaly acceptable values for the "Host" header of incoming HTTP requests, can be specified multiple times.  Includes http/s_server_address by default. (pcoin::http_plugin)
+# Additionaly acceptable values for the "Host" header of incoming HTTP requests, can be specified multiple times.  Includes http/s_server_address by default. (potato::http_plugin)
 # http-alias =
 
-# The actual host:port used to listen for incoming p2p connections. (pcoin::net_plugin)
+# The actual host:port used to listen for incoming p2p connections. (potato::net_plugin)
 p2p-listen-endpoint = 0.0.0.0:9876
 
-# An externally accessible host:port for identifying this node. Defaults to p2p-listen-endpoint. (pcoin::net_plugin)
+# An externally accessible host:port for identifying this node. Defaults to p2p-listen-endpoint. (potato::net_plugin)
 # p2p-server-address =
 
-# The public endpoint of a peer node to connect to. Use multiple p2p-peer-address options as needed to compose a network. (pcoin::net_plugin)
+# The public endpoint of a peer node to connect to. Use multiple p2p-peer-address options as needed to compose a network. (potato::net_plugin)
 # p2p-peer-address =
 
-# Maximum number of client0nodes from any single IP address (pcoin::net_plugin)
+# Maximum number of client0nodes from any single IP address (potato::net_plugin)
 p2p-max-nodes-per-host = 1
 
-# The name supplied to identify this node amongst the peers. (pcoin::net_plugin)
+# The name supplied to identify this node amongst the peers. (potato::net_plugin)
 agent-name = "Potato Test Agent"
 
-# Can be 'any' or 'producers' or 'specified' or 'none'. If 'specified', peer-key must be specified at least once. If only 'producers', peer-key is not required. 'producers' and 'specified' may be combined. (pcoin::net_plugin)
+# Can be 'any' or 'producers' or 'specified' or 'none'. If 'specified', peer-key must be specified at least once. If only 'producers', peer-key is not required. 'producers' and 'specified' may be combined. (potato::net_plugin)
 allowed-connection = any
 
-# Optional public key of peer allowed to connect.  May be used multiple times. (pcoin::net_plugin)
+# Optional public key of peer allowed to connect.  May be used multiple times. (potato::net_plugin)
 # peer-key =
 
-# Tuple of [PublicKey, WIF private key] (may specify multiple times) (pcoin::net_plugin)
+# Tuple of [PublicKey, WIF private key] (may specify multiple times) (potato::net_plugin)
 # peer-private-key =
 
-# Maximum number of clients from which connections are accepted, use 0 for no limit (pcoin::net_plugin)
+# Maximum number of clients from which connections are accepted, use 0 for no limit (potato::net_plugin)
 max-clients = 25
 
-# number of seconds to wait before cleaning up dead connections (pcoin::net_plugin)
+# number of seconds to wait before cleaning up dead connections (potato::net_plugin)
 connection-cleanup-period = 30
 
-# True to require exact match of peer network version. (pcoin::net_plugin)
+# True to require exact match of peer network version. (potato::net_plugin)
 network-version-match = 0
 
-# number of blocks to retrieve in a chunk from any individual peer during synchronization (pcoin::net_plugin)
+# number of blocks to retrieve in a chunk from any individual peer during synchronization (potato::net_plugin)
 sync-fetch-span = 100
 
-# maximum sizes of transaction or block messages that are sent without first sending a notice (pcoin::net_plugin)
+# maximum sizes of transaction or block messages that are sent without first sending a notice (potato::net_plugin)
 max-implicit-request = 1500
 
-# Enable block production, even if the chain is stale. (pcoin::producer_plugin)
+# Enable block production, even if the chain is stale. (potato::producer_plugin)
 enable-stale-production = false
 
-# Start this node in a state where production is paused (pcoin::producer_plugin)
+# Start this node in a state where production is paused (potato::producer_plugin)
 pause-on-startup = false
 
-# Limits the maximum time (in milliseconds) that is allowed a pushed transaction's code to execute before being considered invalid (pcoin::producer_plugin)
+# Limits the maximum time (in milliseconds) that is allowed a pushed transaction's code to execute before being considered invalid (potato::producer_plugin)
 max-transaction-time = 30
 
-# Limits the maximum age (in seconds) of the DPOS Irreversible Block for a chain this node will produce blocks on (use negative value to indicate unlimited) (pcoin::producer_plugin)
+# Limits the maximum age (in seconds) of the DPOS Irreversible Block for a chain this node will produce blocks on (use negative value to indicate unlimited) (potato::producer_plugin)
 max-irreversible-block-age = -1
 
-# ID of producer controlled by this node (e.g. inita; may specify multiple times) (pcoin::producer_plugin)
-producer-name = pcoin
+# ID of producer controlled by this node (e.g. inita; may specify multiple times) (potato::producer_plugin)
+producer-name = potato
 
-# (DEPRECATED - Use signature-provider instead) Tuple of [public key, WIF private key] (may specify multiple times) (pcoin::producer_plugin)
+# (DEPRECATED - Use signature-provider instead) Tuple of [public key, WIF private key] (may specify multiple times) (potato::producer_plugin)
 # private-key = ["PC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV","5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"]
 
 # Key=Value pairs in the form <public-key>=<provider-spec>
@@ -320,46 +320,46 @@ producer-name = pcoin
 #
 #    KEY:<data>         is a string form of a valid EOSIO private key which maps to the provided public key
 #
-#    KEOSD:<data>       is the URL where keosd is available and the approptiate wallet(s) are unlocked (pcoin::producer_plugin)
+#    KEOSD:<data>       is the URL where keosd is available and the approptiate wallet(s) are unlocked (potato::producer_plugin)
 signature-provider = PC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV=KEY:5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
 
-# Limits the maximum time (in milliseconds) that is allowd for sending blocks to a keosd provider for signing (pcoin::producer_plugin)
+# Limits the maximum time (in milliseconds) that is allowd for sending blocks to a keosd provider for signing (potato::producer_plugin)
 keosd-provider-timeout = 5
 
-# The queue size between nodeos and SQL DB plugin thread. (pcoin::sql_db_plugin)
+# The queue size between nodepc and SQL DB plugin thread. (potato::sql_db_plugin)
 sql_db-queue-size = 256
 
-# Sql DB URI connection string If not specified then plugin is disabled. Default database 'EOS' is used if not specified in URI. (pcoin::sql_db_plugin)
+# Sql DB URI connection string If not specified then plugin is disabled. Default database 'EOS' is used if not specified in URI. (potato::sql_db_plugin)
 # sql_db-uri =
 
-# The path of the wallet files (absolute path or relative to application data dir) (pcoin::wallet_plugin)
+# The path of the wallet files (absolute path or relative to application data dir) (potato::wallet_plugin)
 wallet-dir = "."
 
-# Timeout for unlocked wallet in seconds (default 900 (15 minutes)). Wallets will automatically lock after specified number of seconds of inactivity. Activity is defined as any wallet command e.g. list-wallets. (pcoin::wallet_plugin)
+# Timeout for unlocked wallet in seconds (default 900 (15 minutes)). Wallets will automatically lock after specified number of seconds of inactivity. Activity is defined as any wallet command e.g. list-wallets. (potato::wallet_plugin)
 unlock-timeout = 900
 
-# potato key that will be imported automatically when a wallet is created. (pcoin::wallet_plugin)
+# potato key that will be imported automatically when a wallet is created. (potato::wallet_plugin)
 # potato-key =
 
 # Plugin(s) to enable, may be specified multiple times
 # plugin =
-plugin = pcoin::producer_plugin
-#plugin = pcoin::producer_api_plugin
-plugin = pcoin::http_plugin
-plugin = pcoin::chain_plugin
-plugin = pcoin::chain_api_plugin
-#plugin = pcoin::history_plugin
-#plugin = pcoin::history_api_plugin
-plugin = pcoin::bnet_plugin
-plugin = pcoin::net_plugin
-#plugin = pcoin::net_api_plugin
-plugin = pcoin::wallet_plugin
-plugin = pcoin::wallet_api_plugin
+plugin = potato::producer_plugin
+#plugin = potato::producer_api_plugin
+plugin = potato::http_plugin
+plugin = potato::chain_plugin
+plugin = potato::chain_api_plugin
+#plugin = potato::history_plugin
+#plugin = potato::history_api_plugin
+plugin = potato::bnet_plugin
+plugin = potato::net_plugin
+#plugin = potato::net_api_plugin
+plugin = potato::wallet_plugin
+plugin = potato::wallet_api_plugin
 
-#plugin = pcoin::sql_db_plugin
+#plugin = potato::sql_db_plugin
 #sql_db-uri = mysql://db=potato host=localhost port=3306 user=root password='********'
 
-plugin = pcoin::mongo_db_plugin
+plugin = potato::mongo_db_plugin
 mongodb-uri = mongodb://127.0.0.1:27017/POTATO
 
 ```
