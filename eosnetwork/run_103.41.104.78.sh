@@ -2,7 +2,7 @@
 
 screen -dmS pcbpe nodeos --genesis-json ./genesis.json --blocks-dir ./blocks --config-dir ./ --data-dir ./pcbpe \
     --p2p-listen-endpoint 0.0.0.0:9000 --agent-name "Agent pcbpe" --producer-name pcbpe \
-    --plugin potato::http_plugin --plugin potato::chain_api_plugin --access-control-allow-origin "*" --http-server-address "0.0.0.0:8888" \
+    --plugin eosio::http_plugin --plugin eosio::chain_api_plugin --access-control-allow-origin "*" --http-server-address "0.0.0.0:8888" \
     --signature-provider "EOS6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP=KEY:5J31hi73ZfRDJv1MTVoqdGPh4J9e8Nzt5szdxn6zLrUnwGwyd2j"
 
 #screen -dmS pcbpq 
