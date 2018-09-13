@@ -1,13 +1,11 @@
 #!/bin/bash
 
-# screen -dmS pcbpg 
-nodeos --genesis-json ./genesis.json --blocks-dir ./blocks --config-dir ./pcbpg --data-dir ./pcbpg \
+screen -dmS pcbpg nodeos --genesis-json ./genesis.json --blocks-dir ./blocks --config-dir ./pcbpg --data-dir ./pcbpg \
     --p2p-listen-endpoint 0.0.0.0:9000 --agent-name "Agent pcbpg" --producer-name pcbpg \
     --http-server-address "0.0.0.0:8888" \
     --signature-provider "EOS5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X=KEY:5JpSUc2Kh9ZAg7H96nuNT4DbKhsngV8yVjr1Gyfe71LuHtEq9YY"
 
-# #screen -dmS pcbpu 
-# nodeos --genesis-json ./genesis.json --blocks-dir ./blocks --config-dir ./pcbpu --data-dir ./pcbpu \
-#     --p2p-listen-endpoint 0.0.0.0:9001 --agent-name "Agent pcbpu" --producer-name pcbpu \
-#     --http-server-address "0.0.0.0:8899" \
-#     --signature-provider "EOS5n442Qz4yVc4LbdEOSDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6=KEY:5JCStvbRgUZ6hjyfUiUaxt5iU3HP6zC1kwx3W7SweaEGvs4EPfQ"
+screen -dmS pcbpw nodeos --genesis-json ./genesis.json --blocks-dir ./blocks --config-dir ./pcbpw --data-dir ./pcbpw \
+    --p2p-listen-endpoint 0.0.0.0:9002 --agent-name "Agent pcbpw" --producer-name pcbpw \
+    --http-server-address "0.0.0.0:8999" \
+    --signature-provider "EOS5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ=KEY:5K7hmHA2U3nNpwGx6AffWsHyvsSMJvVKVmSgxnSYAjAvjUfzd5j"
