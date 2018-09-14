@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/eos
+cd ${HOME}/eos
 # cleos wallet create 
  
 cleos wallet import --private-key 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3 #EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV 
