@@ -1,13 +1,13 @@
 #!/bin/bash
 docker run \
-  --name node2 -d \
+  --name pcbpb -d \
   #-p 8888:8888 \
   -p 9002:9002 \
-  -v node2/work:/work \
-  -v node2/data:/mnt/dev/data \
-  -v node2/config:/mnt/dev/config \
+  -v pcbpb/work:/work \
+  -v pcbpb/data:/mnt/dev/data \
+  -v pcbpb/config:/mnt/dev/config \
   potatocoin/potato /bin/bash -c \
-  "nodepc -p node2 \
+  "nodepc -p pcbpb \
     --plugin potato::producer_plugin \
     --plugin potato::history_plugin \
     --plugin potato::chain_api_plugin \
