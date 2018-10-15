@@ -1,11 +1,12 @@
 #!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 docker run \
   --name pcbpa -d \
-  #-p 8888:8888 \
   -p 9001:9001 \
-  -v pcbpa/work:/work \
-  -v pcbpa/data:/mnt/dev/data \
-  -v pcbpa/config:/mnt/dev/config \
+  -v $DIR/pcbpa/work:/work \
+  -v $DIR/pcbpa/data:/mnt/dev/data \
+  -v $DIR/pcbpa/config:/mnt/dev/config \
   potatocoin/potato /bin/bash -c \
   "nodepc -p pcbpa \
     --plugin potato::producer_plugin \

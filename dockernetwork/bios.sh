@@ -1,11 +1,13 @@
 #!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 docker run \
   --name bios -d \
   -p 8888:8888 \
   -p 9876:9876 \
-  -v bios/work:/work \
-  -v bios/data:/mnt/dev/data \
-  -v bios/config:/mnt/dev/config \
+  -v $DIR/bios/work:/work \
+  -v $DIR/bios/data:/mnt/dev/data \
+  -v $DIR/bios/config:/mnt/dev/config \
   potatocoin/potato /bin/bash -c \
   "nodepc -e -p potato \
     --plugin potato::producer_plugin \
