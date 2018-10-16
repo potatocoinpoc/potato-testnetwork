@@ -72,18 +72,18 @@ Subcommands:
     exec                        Execute proposed transaction
   system                      Send pcoin.system contract action to the blockchain.
     newaccount                  Create an account, buy ram, stake for bandwidth for the account
-    regproducer                 Register a new producer
-    unregprod                   Unregister an existing producer
-    voteproducer                Vote for a producer
-    listproducers               List producers
-    delegatebw                  Delegate bandwidth
-    undelegatebw                Undelegate bandwidth
+    regworker                   Register a new worker
+    unregprod                   Unregister an existing worker
+    voteworker                  Vote for a worker
+    listworkers                 List workers
+    agentbw                     Delegate bandwidth
+    unagentbw                   Undelegate bandwidth
     listbw                      List delegated bandwidth
     bidname                     Name bidding
     bidnameinfo                 Get bidname info
     buyram                      Buy RAM
     sellram                     Sell RAM
-    claimrewards                Claim producer rewards
+    claimwards                  Claim worker rewards
     regproxy                    Register an account as a proxy (for voting)
     unregproxy                  Unregister an account as a proxy (for voting)
     canceldelay                 Cancel a delayed transaction
