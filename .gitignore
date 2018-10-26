@@ -1,0 +1,4 @@
+dockernetwork/*/data/
+localnetwork/*/data/
+newnetwork/*/data/
+testnetwork/*/data/
