@@ -245,7 +245,7 @@ clpc push action potato updateauth '{"account": "pc.vpay", "permission": "active
 
 
 #clpc create account potato hello PC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV PC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV -p potato
-
+#clpc system newaccount --stake-net "50.0000 PC" --stake-cpu "50.0000 PC" --buy-ram-kbytes 8888888 potato hello PC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL PC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
 #clpc set contract hello build/contracts/hello -p hello
 
 #clpc push action hello hi '["potato"]' -p hello
