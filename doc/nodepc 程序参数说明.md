@@ -308,7 +308,7 @@ max-irreversible-block-age = -1
 producer-name = potato
 
 # (DEPRECATED - Use signature-provider instead) Tuple of [public key, WIF private key] (may specify multiple times) (potato::producer_plugin)
-# private-key = ["PC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV","5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"]
+# private-key = ["PTC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV","5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"]
 
 # Key=Value pairs in the form <public-key>=<provider-spec>
 # Where:
@@ -321,7 +321,7 @@ producer-name = potato
 #    KEY:<data>         is a string form of a valid EOSIO private key which maps to the provided public key
 #
 #    KEOSD:<data>       is the URL where keosd is available and the approptiate wallet(s) are unlocked (potato::producer_plugin)
-signature-provider = PC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV=KEY:5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+signature-provider = PTC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV=KEY:5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
 
 # Limits the maximum time (in milliseconds) that is allowd for sending blocks to a keosd provider for signing (potato::producer_plugin)
 keosd-provider-timeout = 5
