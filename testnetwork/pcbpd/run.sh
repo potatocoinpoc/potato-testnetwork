@@ -1,3 +1,3 @@
 #!/bin/bash
 
-screen -dmS pcbpd ~/potato/nodeos --genesis-json ../genesis.json --blocks-dir ./blocks --config-dir ./ --data-dir ./ 
+screen -dmS pcbpd nodepc --genesis-json ../genesis.json --blocks-dir ./blocks --config-dir ./ --data-dir ./ 
