@@ -99,8 +99,8 @@ clpc create account potato pc.vpay POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqE
 clpc set contract pc.token build/contracts/pc.token -p pc.token
 clpc set contract pc.msig build/contracts/pc.msig -p pc.msig
 
-clpc push action pc.token create '["potato", "10000000000.0000 POC", 0, 0, 0]' -p pc.token
-clpc push action pc.token issue '["potato", "10000000000.0000 POC", "issue"]' -p potato
+clpc push action pc.token create '["potato", "1000000000000.0000 POC", 0, 0, 0]' -p pc.token
+clpc push action pc.token issue '["potato", "1000000000000.0000 POC", "issue"]' -p potato
 
 clpc set contract potato build/contracts/pc.system -p potato
 clpc push action potato setpriv '["pc.msig", 1]' -p potato@active
@@ -134,15 +134,15 @@ clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy
 clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpz POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV -p potato
 
 #转帐
-clpc transfer potato pcbpa "25000000.0000 POC" "init"
-clpc transfer potato pcbpb "25000000.0000 POC" "init"
-clpc transfer potato pcbpc "25000000.0000 POC" "init"
-clpc transfer potato pcbpd "25000000.0000 POC" "init"
-clpc transfer potato pcbpe "25000000.0000 POC" "init"
-clpc transfer potato pcbpf "25000000.0000 POC" "init"
-clpc transfer potato pcbpg "25000000.0000 POC" "init"
-clpc transfer potato pcbph "25000000.0000 POC" "init"
-clpc transfer potato pcbpi "25000000.0000 POC" "init"
+clpc transfer potato pcbpa "9000000000.0000 POC" "init"
+clpc transfer potato pcbpb "9000000000.0000 POC" "init"
+clpc transfer potato pcbpc "9000000000.0000 POC" "init"
+clpc transfer potato pcbpd "9000000000.0000 POC" "init"
+clpc transfer potato pcbpe "9000000000.0000 POC" "init"
+clpc transfer potato pcbpf "9000000000.0000 POC" "init"
+clpc transfer potato pcbpg "9000000000.0000 POC" "init"
+clpc transfer potato pcbph "9000000000.0000 POC" "init"
+clpc transfer potato pcbpi "9000000000.0000 POC" "init"
 clpc transfer potato pcbpj "25000000.0000 POC" "init"
 clpc transfer potato pcbpk "25000000.0000 POC" "init"
 clpc transfer potato pcbpl "25000000.0000 POC" "init"
@@ -190,15 +190,15 @@ clpc system regworker pcbpy POC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ
 clpc system regworker pcbpz POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV https://bp.potatocoin.com/bpinfo/pcbpz
 
 #抵押
-clpc system agentbw pcbpa pcbpa '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpb pcbpb '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpc pcbpc '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpd pcbpd '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpe pcbpe '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpf pcbpf '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpg pcbpg '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbph pcbph '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpi pcbpi '12000000.0000 POC' '12000000.0000 POC'
+clpc system agentbw pcbpa pcbpa '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpb pcbpb '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpc pcbpc '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpd pcbpd '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpe pcbpe '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpf pcbpf '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpg pcbpg '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbph pcbph '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpi pcbpi '4400000000.0000 POC' '4400000000.0000 POC'
 clpc system agentbw pcbpj pcbpj '12000000.0000 POC' '12000000.0000 POC'
 clpc system agentbw pcbpk pcbpk '12000000.0000 POC' '12000000.0000 POC'
 clpc system agentbw pcbpl pcbpl '12000000.0000 POC' '12000000.0000 POC'
