@@ -143,23 +143,23 @@ clpc transfer potato pcbpf "9000000000.0000 POC" "init"
 clpc transfer potato pcbpg "9000000000.0000 POC" "init"
 clpc transfer potato pcbph "9000000000.0000 POC" "init"
 clpc transfer potato pcbpi "9000000000.0000 POC" "init"
-clpc transfer potato pcbpj "25000000.0000 POC" "init"
-clpc transfer potato pcbpk "25000000.0000 POC" "init"
-clpc transfer potato pcbpl "25000000.0000 POC" "init"
-clpc transfer potato pcbpm "25000000.0000 POC" "init"
-clpc transfer potato pcbpn "25000000.0000 POC" "init"
-clpc transfer potato pcbpo "25000000.0000 POC" "init"
-clpc transfer potato pcbpp "25000000.0000 POC" "init"
-clpc transfer potato pcbpq "25000000.0000 POC" "init"
-clpc transfer potato pcbpr "25000000.0000 POC" "init"
-clpc transfer potato pcbps "25000000.0000 POC" "init"
-clpc transfer potato pcbpt "25000000.0000 POC" "init"
-clpc transfer potato pcbpu "25000000.0000 POC" "init"
-clpc transfer potato pcbpv "25000000.0000 POC" "init"
-clpc transfer potato pcbpw "25000000.0000 POC" "init"
-clpc transfer potato pcbpx "25000000.0000 POC" "init"
-clpc transfer potato pcbpy "25000000.0000 POC" "init"
-clpc transfer potato pcbpz "25000000.0000 POC" "init"
+clpc transfer potato pcbpj "9000000000.0000 POC" "init"
+clpc transfer potato pcbpk "9000000000.0000 POC" "init"
+clpc transfer potato pcbpl "9000000000.0000 POC" "init"
+clpc transfer potato pcbpm "9000000000.0000 POC" "init"
+clpc transfer potato pcbpn "9000000000.0000 POC" "init"
+clpc transfer potato pcbpo "9000000000.0000 POC" "init"
+clpc transfer potato pcbpp "9000000000.0000 POC" "init"
+clpc transfer potato pcbpq "9000000000.0000 POC" "init"
+clpc transfer potato pcbpr "9000000000.0000 POC" "init"
+clpc transfer potato pcbps "9000000000.0000 POC" "init"
+clpc transfer potato pcbpt "9000000000.0000 POC" "init"
+clpc transfer potato pcbpu "9000000000.0000 POC" "init"
+clpc transfer potato pcbpv "9000000000.0000 POC" "init"
+clpc transfer potato pcbpw "9000000000.0000 POC" "init"
+clpc transfer potato pcbpx "9000000000.0000 POC" "init"
+clpc transfer potato pcbpy "9000000000.0000 POC" "init"
+clpc transfer potato pcbpz "9000000000.0000 POC" "init"
 
 #注册矿机
 clpc system regworker pcbpa POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL https://bp.potatocoin.com/bpinfo/pcbpa
@@ -199,23 +199,23 @@ clpc system agentbw pcbpf pcbpf '4400000000.0000 POC' '4400000000.0000 POC'
 clpc system agentbw pcbpg pcbpg '4400000000.0000 POC' '4400000000.0000 POC'
 clpc system agentbw pcbph pcbph '4400000000.0000 POC' '4400000000.0000 POC'
 clpc system agentbw pcbpi pcbpi '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpj pcbpj '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpk pcbpk '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpl pcbpl '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpm pcbpm '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpn pcbpn '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpo pcbpo '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpp pcbpp '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpq pcbpq '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpr pcbpr '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbps pcbps '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpt pcbpt '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpu pcbpu '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpv pcbpv '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpw pcbpw '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpx pcbpx '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpy pcbpy '12000000.0000 POC' '12000000.0000 POC'
-clpc system agentbw pcbpz pcbpz '12000000.0000 POC' '12000000.0000 POC'
+clpc system agentbw pcbpj pcbpj '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpk pcbpk '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpl pcbpl '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpm pcbpm '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpn pcbpn '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpo pcbpo '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpp pcbpp '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpq pcbpq '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpr pcbpr '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbps pcbps '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpt pcbpt '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpu pcbpu '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpv pcbpv '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpw pcbpw '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpx pcbpx '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpy pcbpy '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbpz pcbpz '4400000000.0000 POC' '4400000000.0000 POC'
 
 #投票
 clpc system voteworker prods pcbpa pcbpa -p pcbpa
