@@ -5,32 +5,32 @@
 clpc wallet unlock --password PW5JLQQWJcepKqm2kh5F1UfbQTQtPfo7Abngi1vFvrxa57bMFuNLM
 #导入私钥
 clpc wallet import --private-key 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3 #POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
-clpc wallet import --private-key 5KdC5izmPV6WkY4afTdzzcyx5dyQ2z6Ax9tDCSqFwGBA5twQogz #PC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL pcbpa
-clpc wallet import --private-key 5K63ZFMhZVVzvDiVWuNxmznGGzb4JjeKr53j1uYga1zhkBxTELQ #PC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk pcbpb
-clpc wallet import --private-key 5JXgXUpAhYbu6Smf9vZiKnYjGmxfGh2BkZCQZAPLv9DzFkAnu9S #PC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF pcbpc
-clpc wallet import --private-key 5JhsjUjKUJXYSvPWAZe23ceNSMdjk9U32jjmgFTZfXxe4yV2y4A #PC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 pcbpd
-clpc wallet import --private-key 5J31hi73ZfRDJv1MTVoqdGPh4J9e8Nzt5szdxn6zLrUnwGwyd2j #PC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP pcbpe
-clpc wallet import --private-key 5KAwYrRVxRToSmwLpp7MexoFbnzmRSiJkPP8eYYq2ZfV2r9dY6y #PC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 pcbpf
-clpc wallet import --private-key 5JpSUc2Kh9ZAg7H96nuNT4DbKhsngV8yVjr1Gyfe71LuHtEq9YY #PC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X pcbpg
-clpc wallet import --private-key 5K463ynhZoCDDa4RDcr63cUwWLTnKqmdcoTKTHBjqoKfv4u5V7p #PC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr pcbph
-clpc wallet import --private-key 5JtUScZK2XEp3g9gh7F8bwtPTRAkASmNrrftmx4AxDKD5K4zDnr #PC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D pcbpi
-clpc wallet import --private-key 5JUNYmkJ5wVmtVY8x9A1KKzYe9UWLZ4Fq1hzGZxfwfzJB8jkw6u #PC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S pcbpj
-clpc wallet import --private-key 5K6LU8aVpBq9vJsnpCvaHCcyYwzPPKXfDdyefYyAMMs3Qy42fUr #PC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA pcbpk
-clpc wallet import --private-key 5KdRpt1juJfbPEryZsQYxyNxSTkXTdqEiL4Yx9cAjdgApt4ANce #PC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV pcbpl
-clpc wallet import --private-key 5JRMbcnc35NkvxKTZUnoe3W4ENQCjhMUFwjN5jQmAqN9D7N6y3N #PC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf pcbpm
-clpc wallet import --private-key 5HqyipkJSm5fwYhbhGC3vmmoBwabtgJSPecnvmN2mMrCTQfWBSS #PC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X pcbpn
-clpc wallet import --private-key 5KPr55J2UQNUh3xP5Q6ebqqV6MK5usrXxG4qqRfpaLieGa8VpCm #PC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA pcbpo
-clpc wallet import --private-key 5JV9UNEpPKa4sqxSxvGWYPY9ZBTzAttyq7ShPvLUJSetwAeSXFW #PC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 pcbpp
-clpc wallet import --private-key 5K4GSGP2r1Yu3RqmPZPF8Hv6Zrv2YWsUEoCqwwHxKsZavz2tChg #PC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f pcbpq
-clpc wallet import --private-key 5K4MmsY7Th8DqjEY2vbM7npaxSQ56XzvNULkJeqKmbYoVRmPPpB #PC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT pcbpr
-clpc wallet import --private-key 5KLGj1HGRWbk5xNmoKfrcrQHXvcVJBPdAckoiJgFftXSJjLPp7b #PC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz pcbps
-clpc wallet import --private-key 5K6qk1KaCYYWX86UhAfUsbMwhGPUqrqHrZEQDjs9ekP5j6LgHUu #PC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC pcbpt
-clpc wallet import --private-key 5JCStvbRgUZ6hjyfUiUaxt5iU3HP6zC1kwx3W7SweaEGvs4EPfQ #PC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 pcbpu
-clpc wallet import --private-key 5JJjaKnAb9KM2vkkJDgrYXoeUEdGgWtB5WK1a38wrmKnS3KtkS6 #PC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d pcbpv
-clpc wallet import --private-key 5K7hmHA2U3nNpwGx6AffWsHyvsSMJvVKVmSgxnSYAjAvjUfzd5j #PC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ pcbpw
-clpc wallet import --private-key 5K3TXkZAwyJkg7TjSfopd7sTr3RXFccghXHN1nJHTzap1ZKgLdK #PC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS pcbpx
-clpc wallet import --private-key 5J498VQKaFVbh2ovPrMxa5DThE1fiWWfna6H2ZofmGMaVM7bs2M #PC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 pcbpy
-clpc wallet import --private-key 5JrC4vnVXroqvXtmSw3EiXcSv9agfDsKsUghzv2Rhiyrg9J36Z4 #PC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV pcbpz
+clpc wallet import --private-key 5KdC5izmPV6WkY4afTdzzcyx5dyQ2z6Ax9tDCSqFwGBA5twQogz #PC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL pcbppcbppcbpa
+clpc wallet import --private-key 5K63ZFMhZVVzvDiVWuNxmznGGzb4JjeKr53j1uYga1zhkBxTELQ #PC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk pcbppcbppcbpb
+clpc wallet import --private-key 5JXgXUpAhYbu6Smf9vZiKnYjGmxfGh2BkZCQZAPLv9DzFkAnu9S #PC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF pcbppcbppcbpc
+clpc wallet import --private-key 5JhsjUjKUJXYSvPWAZe23ceNSMdjk9U32jjmgFTZfXxe4yV2y4A #PC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 pcbppcbppcbpd
+clpc wallet import --private-key 5J31hi73ZfRDJv1MTVoqdGPh4J9e8Nzt5szdxn6zLrUnwGwyd2j #PC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP pcbppcbppcbpe
+clpc wallet import --private-key 5KAwYrRVxRToSmwLpp7MexoFbnzmRSiJkPP8eYYq2ZfV2r9dY6y #PC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 pcbppcbppcbpf
+clpc wallet import --private-key 5JpSUc2Kh9ZAg7H96nuNT4DbKhsngV8yVjr1Gyfe71LuHtEq9YY #PC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X pcbppcbppcbpg
+clpc wallet import --private-key 5K463ynhZoCDDa4RDcr63cUwWLTnKqmdcoTKTHBjqoKfv4u5V7p #PC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr pcbppcbppcbph
+clpc wallet import --private-key 5JtUScZK2XEp3g9gh7F8bwtPTRAkASmNrrftmx4AxDKD5K4zDnr #PC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D pcbppcbppcbpi
+clpc wallet import --private-key 5JUNYmkJ5wVmtVY8x9A1KKzYe9UWLZ4Fq1hzGZxfwfzJB8jkw6u #PC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S pcbppcbppcbpj
+clpc wallet import --private-key 5K6LU8aVpBq9vJsnpCvaHCcyYwzPPKXfDdyefYyAMMs3Qy42fUr #PC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA pcbppcbppcbpk
+clpc wallet import --private-key 5KdRpt1juJfbPEryZsQYxyNxSTkXTdqEiL4Yx9cAjdgApt4ANce #PC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV pcbppcbppcbpl
+clpc wallet import --private-key 5JRMbcnc35NkvxKTZUnoe3W4ENQCjhMUFwjN5jQmAqN9D7N6y3N #PC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf pcbppcbppcbpm
+clpc wallet import --private-key 5HqyipkJSm5fwYhbhGC3vmmoBwabtgJSPecnvmN2mMrCTQfWBSS #PC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X pcbppcbppcbpn
+clpc wallet import --private-key 5KPr55J2UQNUh3xP5Q6ebqqV6MK5usrXxG4qqRfpaLieGa8VpCm #PC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA pcbppcbppcbpo
+clpc wallet import --private-key 5JV9UNEpPKa4sqxSxvGWYPY9ZBTzAttyq7ShPvLUJSetwAeSXFW #PC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 pcbppcbppcbpp
+clpc wallet import --private-key 5K4GSGP2r1Yu3RqmPZPF8Hv6Zrv2YWsUEoCqwwHxKsZavz2tChg #PC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f pcbppcbppcbpq
+clpc wallet import --private-key 5K4MmsY7Th8DqjEY2vbM7npaxSQ56XzvNULkJeqKmbYoVRmPPpB #PC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT pcbppcbppcbpr
+clpc wallet import --private-key 5KLGj1HGRWbk5xNmoKfrcrQHXvcVJBPdAckoiJgFftXSJjLPp7b #PC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz pcbppcbppcbps
+clpc wallet import --private-key 5K6qk1KaCYYWX86UhAfUsbMwhGPUqrqHrZEQDjs9ekP5j6LgHUu #PC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC pcbppcbppcbpt
+clpc wallet import --private-key 5JCStvbRgUZ6hjyfUiUaxt5iU3HP6zC1kwx3W7SweaEGvs4EPfQ #PC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 pcbppcbppcbpu
+clpc wallet import --private-key 5JJjaKnAb9KM2vkkJDgrYXoeUEdGgWtB5WK1a38wrmKnS3KtkS6 #PC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d pcbppcbppcbpv
+clpc wallet import --private-key 5K7hmHA2U3nNpwGx6AffWsHyvsSMJvVKVmSgxnSYAjAvjUfzd5j #PC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ pcbppcbppcbpw
+clpc wallet import --private-key 5K3TXkZAwyJkg7TjSfopd7sTr3RXFccghXHN1nJHTzap1ZKgLdK #PC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS pcbppcbppcbpx
+clpc wallet import --private-key 5J498VQKaFVbh2ovPrMxa5DThE1fiWWfna6H2ZofmGMaVM7bs2M #PC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 pcbppcbppcbpy
+clpc wallet import --private-key 5JrC4vnVXroqvXtmSw3EiXcSv9agfDsKsUghzv2Rhiyrg9J36Z4 #PC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV pcbppcbppcbpz
 
 clpc wallet import --private-key 5Jx1cCRPwHM7mr8brbeS6k5GYFEDKgmz34kmfmhywToF5wqddQE #PC7oiy488wfzwbR6L9QwNDQb4CHGVR5ix9udJjVyykgbLaQLgBc5
 clpc wallet import --private-key 5Hw5iBC7oGfR3FTwgDzHuzk4JAv24SiXq9iBbyPMb8JmKBHzjVX #PC6iBVEaRDS3mofUJpa8bjD94vohHrsSqqez1wcsWjhPpeNArfBF
@@ -106,147 +106,147 @@ clpc set contract potato build/contracts/pc.system -p potato
 clpc push action potato setpriv '["pc.msig", 1]' -p potato@active
 
 #注册矿机账号
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpa POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpb POC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk POC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpc POC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF POC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpd POC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 POC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpe POC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP POC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpf POC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 POC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpg POC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X POC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpi POC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D POC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpj POC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S POC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpk POC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA POC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpl POC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV POC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpm POC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf POC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpn POC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X POC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpo POC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA POC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpp POC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 POC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpq POC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f POC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpr POC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT POC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbps POC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz POC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpt POC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC POC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpu POC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 POC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpv POC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d POC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpw POC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ POC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpx POC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS POC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpy POC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 POC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 -p potato
-clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbpz POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpa POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpb POC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk POC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpc POC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF POC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpd POC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 POC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpe POC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP POC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpf POC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 POC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpg POC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X POC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpi POC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D POC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpj POC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S POC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpk POC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA POC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpl POC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV POC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpm POC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf POC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpn POC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X POC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpo POC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA POC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpp POC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 POC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpq POC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f POC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpr POC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT POC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbps POC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz POC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpt POC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC POC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpu POC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 POC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpv POC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d POC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpw POC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ POC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpx POC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS POC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpy POC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 POC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 -p potato
+clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato pcbppcbppcbpz POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV -p potato
 
 #转帐
-clpc transfer potato pcbpa "9000000000.0000 POC" "init"
-clpc transfer potato pcbpb "9000000000.0000 POC" "init"
-clpc transfer potato pcbpc "9000000000.0000 POC" "init"
-clpc transfer potato pcbpd "9000000000.0000 POC" "init"
-clpc transfer potato pcbpe "9000000000.0000 POC" "init"
-clpc transfer potato pcbpf "9000000000.0000 POC" "init"
-clpc transfer potato pcbpg "9000000000.0000 POC" "init"
-clpc transfer potato pcbph "9000000000.0000 POC" "init"
-clpc transfer potato pcbpi "9000000000.0000 POC" "init"
-clpc transfer potato pcbpj "9000000000.0000 POC" "init"
-clpc transfer potato pcbpk "9000000000.0000 POC" "init"
-clpc transfer potato pcbpl "9000000000.0000 POC" "init"
-clpc transfer potato pcbpm "9000000000.0000 POC" "init"
-clpc transfer potato pcbpn "9000000000.0000 POC" "init"
-clpc transfer potato pcbpo "9000000000.0000 POC" "init"
-clpc transfer potato pcbpp "9000000000.0000 POC" "init"
-clpc transfer potato pcbpq "9000000000.0000 POC" "init"
-clpc transfer potato pcbpr "9000000000.0000 POC" "init"
-clpc transfer potato pcbps "9000000000.0000 POC" "init"
-clpc transfer potato pcbpt "9000000000.0000 POC" "init"
-clpc transfer potato pcbpu "9000000000.0000 POC" "init"
-clpc transfer potato pcbpv "9000000000.0000 POC" "init"
-clpc transfer potato pcbpw "9000000000.0000 POC" "init"
-clpc transfer potato pcbpx "9000000000.0000 POC" "init"
-clpc transfer potato pcbpy "9000000000.0000 POC" "init"
-clpc transfer potato pcbpz "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpa "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpb "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpc "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpd "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpe "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpf "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpg "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbph "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpi "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpj "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpk "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpl "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpm "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpn "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpo "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpp "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpq "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpr "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbps "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpt "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpu "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpv "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpw "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpx "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpy "9000000000.0000 POC" "init"
+clpc transfer potato pcbppcbppcbpz "9000000000.0000 POC" "init"
 
 #注册矿机
-clpc system regworker pcbpa POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL https://bp.potatocoin.com/bpinfo/pcbpa
-clpc system regworker pcbpb POC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk https://bp.potatocoin.com/bpinfo/pcbpb
-clpc system regworker pcbpc POC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF https://bp.potatocoin.com/bpinfo/pcbpc
-clpc system regworker pcbpd POC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 https://bp.potatocoin.com/bpinfo/pcbpd
-clpc system regworker pcbpe POC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP https://bp.potatocoin.com/bpinfo/pcbpe
-clpc system regworker pcbpf POC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 https://bp.potatocoin.com/bpinfo/pcbpf
-clpc system regworker pcbpg POC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X https://bp.potatocoin.com/bpinfo/pcbpg
-clpc system regworker pcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr https://bp.potatocoin.com/bpinfo/pcbph
-clpc system regworker pcbpi POC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D https://bp.potatocoin.com/bpinfo/pcbpi
-clpc system regworker pcbpj POC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S https://bp.potatocoin.com/bpinfo/pcbpj
-clpc system regworker pcbpk POC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA https://bp.potatocoin.com/bpinfo/pcbpk
-clpc system regworker pcbpl POC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV https://bp.potatocoin.com/bpinfo/pcbpl
-clpc system regworker pcbpm POC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf https://bp.potatocoin.com/bpinfo/pcbpm
-clpc system regworker pcbpn POC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X https://bp.potatocoin.com/bpinfo/pcbpn
-clpc system regworker pcbpo POC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA https://bp.potatocoin.com/bpinfo/pcbpo
-clpc system regworker pcbpp POC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 https://bp.potatocoin.com/bpinfo/pcbpp
-clpc system regworker pcbpq POC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f https://bp.potatocoin.com/bpinfo/pcbpq
-clpc system regworker pcbpr POC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT https://bp.potatocoin.com/bpinfo/pcbpr
-clpc system regworker pcbps POC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz https://bp.potatocoin.com/bpinfo/pcbps
-clpc system regworker pcbpt POC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC https://bp.potatocoin.com/bpinfo/pcbpt
-clpc system regworker pcbpu POC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 https://bp.potatocoin.com/bpinfo/pcbpu
-clpc system regworker pcbpv POC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d https://bp.potatocoin.com/bpinfo/pcbpv
-clpc system regworker pcbpw POC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ https://bp.potatocoin.com/bpinfo/pcbpw
-clpc system regworker pcbpx POC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS https://bp.potatocoin.com/bpinfo/pcbpx
-clpc system regworker pcbpy POC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 https://bp.potatocoin.com/bpinfo/pcbpy
-clpc system regworker pcbpz POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV https://bp.potatocoin.com/bpinfo/pcbpz
+clpc system regworker pcbppcbppcbpa POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL https://bp.potatocoin.com/bpinfo/pcbppcbppcbpa
+clpc system regworker pcbppcbppcbpb POC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk https://bp.potatocoin.com/bpinfo/pcbppcbppcbpb
+clpc system regworker pcbppcbppcbpc POC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF https://bp.potatocoin.com/bpinfo/pcbppcbppcbpc
+clpc system regworker pcbppcbppcbpd POC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 https://bp.potatocoin.com/bpinfo/pcbppcbppcbpd
+clpc system regworker pcbppcbppcbpe POC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP https://bp.potatocoin.com/bpinfo/pcbppcbppcbpe
+clpc system regworker pcbppcbppcbpf POC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 https://bp.potatocoin.com/bpinfo/pcbppcbppcbpf
+clpc system regworker pcbppcbppcbpg POC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X https://bp.potatocoin.com/bpinfo/pcbppcbppcbpg
+clpc system regworker pcbppcbppcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr https://bp.potatocoin.com/bpinfo/pcbppcbppcbph
+clpc system regworker pcbppcbppcbpi POC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D https://bp.potatocoin.com/bpinfo/pcbppcbppcbpi
+clpc system regworker pcbppcbppcbpj POC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S https://bp.potatocoin.com/bpinfo/pcbppcbppcbpj
+clpc system regworker pcbppcbppcbpk POC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA https://bp.potatocoin.com/bpinfo/pcbppcbppcbpk
+clpc system regworker pcbppcbppcbpl POC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV https://bp.potatocoin.com/bpinfo/pcbppcbppcbpl
+clpc system regworker pcbppcbppcbpm POC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf https://bp.potatocoin.com/bpinfo/pcbppcbppcbpm
+clpc system regworker pcbppcbppcbpn POC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X https://bp.potatocoin.com/bpinfo/pcbppcbppcbpn
+clpc system regworker pcbppcbppcbpo POC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA https://bp.potatocoin.com/bpinfo/pcbppcbppcbpo
+clpc system regworker pcbppcbppcbpp POC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 https://bp.potatocoin.com/bpinfo/pcbppcbppcbpp
+clpc system regworker pcbppcbppcbpq POC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f https://bp.potatocoin.com/bpinfo/pcbppcbppcbpq
+clpc system regworker pcbppcbppcbpr POC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT https://bp.potatocoin.com/bpinfo/pcbppcbppcbpr
+clpc system regworker pcbppcbppcbps POC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz https://bp.potatocoin.com/bpinfo/pcbppcbppcbps
+clpc system regworker pcbppcbppcbpt POC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC https://bp.potatocoin.com/bpinfo/pcbppcbppcbpt
+clpc system regworker pcbppcbppcbpu POC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 https://bp.potatocoin.com/bpinfo/pcbppcbppcbpu
+clpc system regworker pcbppcbppcbpv POC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d https://bp.potatocoin.com/bpinfo/pcbppcbppcbpv
+clpc system regworker pcbppcbppcbpw POC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ https://bp.potatocoin.com/bpinfo/pcbppcbppcbpw
+clpc system regworker pcbppcbppcbpx POC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS https://bp.potatocoin.com/bpinfo/pcbppcbppcbpx
+clpc system regworker pcbppcbppcbpy POC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 https://bp.potatocoin.com/bpinfo/pcbppcbppcbpy
+clpc system regworker pcbppcbppcbpz POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV https://bp.potatocoin.com/bpinfo/pcbppcbppcbpz
 
 #抵押
-clpc system agentbw pcbpa pcbpa '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpb pcbpb '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpc pcbpc '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpd pcbpd '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpe pcbpe '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpf pcbpf '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpg pcbpg '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbph pcbph '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpi pcbpi '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpj pcbpj '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpk pcbpk '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpl pcbpl '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpm pcbpm '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpn pcbpn '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpo pcbpo '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpp pcbpp '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpq pcbpq '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpr pcbpr '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbps pcbps '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpt pcbpt '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpu pcbpu '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpv pcbpv '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpw pcbpw '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpx pcbpx '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpy pcbpy '4400000000.0000 POC' '4400000000.0000 POC'
-clpc system agentbw pcbpz pcbpz '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpa pcbppcbppcbpa '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpb pcbppcbppcbpb '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpc pcbppcbppcbpc '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpd pcbppcbppcbpd '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpe pcbppcbppcbpe '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpf pcbppcbppcbpf '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpg pcbppcbppcbpg '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbph pcbppcbppcbph '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpi pcbppcbppcbpi '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpj pcbppcbppcbpj '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpk pcbppcbppcbpk '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpl pcbppcbppcbpl '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpm pcbppcbppcbpm '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpn pcbppcbppcbpn '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpo pcbppcbppcbpo '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpp pcbppcbppcbpp '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpq pcbppcbppcbpq '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpr pcbppcbppcbpr '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbps pcbppcbppcbps '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpt pcbppcbppcbpt '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpu pcbppcbppcbpu '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpv pcbppcbppcbpv '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpw pcbppcbppcbpw '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpx pcbppcbppcbpx '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpy pcbppcbppcbpy '4400000000.0000 POC' '4400000000.0000 POC'
+clpc system agentbw pcbppcbppcbpz pcbppcbppcbpz '4400000000.0000 POC' '4400000000.0000 POC'
 
 #投票
-clpc system voteworker prods pcbpa pcbpa -p pcbpa
-clpc system voteworker prods pcbpb pcbpb
-clpc system voteworker prods pcbpc pcbpc
-clpc system voteworker prods pcbpd pcbpd
-clpc system voteworker prods pcbpe pcbpe
-clpc system voteworker prods pcbpf pcbpf
-clpc system voteworker prods pcbpg pcbpg
-clpc system voteworker prods pcbph pcbph
-clpc system voteworker prods pcbpi pcbpi
-clpc system voteworker prods pcbpj pcbpj
-clpc system voteworker prods pcbpk pcbpk
-clpc system voteworker prods pcbpl pcbpl
-clpc system voteworker prods pcbpm pcbpm
-clpc system voteworker prods pcbpn pcbpn
-clpc system voteworker prods pcbpo pcbpo
-clpc system voteworker prods pcbpp pcbpp
-clpc system voteworker prods pcbpq pcbpq
-clpc system voteworker prods pcbpr pcbpr
-clpc system voteworker prods pcbps pcbps
-clpc system voteworker prods pcbpt pcbpt
-clpc system voteworker prods pcbpu pcbpu
-clpc system voteworker prods pcbpv pcbpv
-clpc system voteworker prods pcbpw pcbpw
-clpc system voteworker prods pcbpx pcbpx
-clpc system voteworker prods pcbpy pcbpy
-clpc system voteworker prods pcbpz pcbpz
+clpc system voteworker prods pcbppcbppcbpa pcbppcbppcbpa -p pcbppcbppcbpa
+clpc system voteworker prods pcbppcbppcbpb pcbppcbppcbpb
+clpc system voteworker prods pcbppcbppcbpc pcbppcbppcbpc
+clpc system voteworker prods pcbppcbppcbpd pcbppcbppcbpd
+clpc system voteworker prods pcbppcbppcbpe pcbppcbppcbpe
+clpc system voteworker prods pcbppcbppcbpf pcbppcbppcbpf
+clpc system voteworker prods pcbppcbppcbpg pcbppcbppcbpg
+clpc system voteworker prods pcbppcbppcbph pcbppcbppcbph
+clpc system voteworker prods pcbppcbppcbpi pcbppcbppcbpi
+clpc system voteworker prods pcbppcbppcbpj pcbppcbppcbpj
+clpc system voteworker prods pcbppcbppcbpk pcbppcbppcbpk
+clpc system voteworker prods pcbppcbppcbpl pcbppcbppcbpl
+clpc system voteworker prods pcbppcbppcbpm pcbppcbppcbpm
+clpc system voteworker prods pcbppcbppcbpn pcbppcbppcbpn
+clpc system voteworker prods pcbppcbppcbpo pcbppcbppcbpo
+clpc system voteworker prods pcbppcbppcbpp pcbppcbppcbpp
+clpc system voteworker prods pcbppcbppcbpq pcbppcbppcbpq
+clpc system voteworker prods pcbppcbppcbpr pcbppcbppcbpr
+clpc system voteworker prods pcbppcbppcbps pcbppcbppcbps
+clpc system voteworker prods pcbppcbppcbpt pcbppcbppcbpt
+clpc system voteworker prods pcbppcbppcbpu pcbppcbppcbpu
+clpc system voteworker prods pcbppcbppcbpv pcbppcbppcbpv
+clpc system voteworker prods pcbppcbppcbpw pcbppcbppcbpw
+clpc system voteworker prods pcbppcbppcbpx pcbppcbppcbpx
+clpc system voteworker prods pcbppcbppcbpy pcbppcbppcbpy
+clpc system voteworker prods pcbppcbppcbpz pcbppcbppcbpz
 
 #块奖励
-#clpc system claimrewards pcbpa
+#clpc system claimrewards pcbppcbppcbpa
 
 #bios辞职
 clpc push action potato updateauth '{"account": "potato", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.prods", "permission": "active"}}]}}' -p potato@owner
@@ -288,33 +288,35 @@ clpc push action potato updateauth '{"account": "pc.vpay", "permission": "active
 #clpc system listworkers
 #clpc get schedule
 
-# clpc system regworker pcbpa POC7J88XYLxPMJwo1LVWZZnWVJGZ2XmzFBL2pWAWXg8HxtbBpepp5 https://bp.potatocoin.com/bpinfo/pcbpa
-# clpc system regworker pcbpb POC7k9kLtJ98QcG296XYtQXPaFKyFRLwmK3WVJMPBbyAa9VqHCNEB https://bp.potatocoin.com/bpinfo/pcbpb
-# clpc system regworker pcbpc POC581dNfCTAZGXvwMzakkKhcKxYzbT7pZTgwPganRvdyqQ5mzGMm https://bp.potatocoin.com/bpinfo/pcbpc
-# clpc system regworker pcbpd POC6xrVckgLqKtcdTNZSjGGKMwJwecsGpYRNwABXpzPKo4owkDTK2 https://bp.potatocoin.com/bpinfo/pcbpd
-# clpc system regworker pcbpe POC85YhcYSuNPnsjo8opo7mQu7EUzEt896YbFUYLhuz8KYVc7FL91 https://bp.potatocoin.com/bpinfo/pcbpe
-# clpc system regworker pcbpf POC7g9ef2ujrh6coGAyz211fFeebYRWhjM9Uwi32Ep8jTVdyZd8Pu https://bp.potatocoin.com/bpinfo/pcbpf
-# clpc system regworker pcbpg POC7pCSJPxUShiAdtBpVkMAqvAc3B5dfmJqvQvGmsm9YpZdNym52z https://bp.potatocoin.com/bpinfo/pcbpg
-# clpc system regworker pcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr https://bp.potatocoin.com/bpinfo/pcbph
-# clpc system regworker pcbpi POC7Zs8ECjR9eP8AeBWWiGX8rFTkPeTF1MkaognZnpdWRApizmpUH https://bp.potatocoin.com/bpinfo/pcbpi
-# clpc system regworker pcbpj POC7ShDF77XXeH4qCyUFx7msZ2dHUagfFMtyqB3gVEViRHpp7ifxF https://bp.potatocoin.com/bpinfo/pcbpj
-# clpc system regworker pcbpk POC82vn4Jw31Q2cMKj9yys2JEQUVYxEh78dvkc33Aq5DrJf32z8tK https://bp.potatocoin.com/bpinfo/pcbpk
-# clpc system regworker pcbpl POC6eWqhcPG7D3MYyXgJQnDtsf8d4B4cJYE46Qzp2inUDFbH76CsJ https://bp.potatocoin.com/bpinfo/pcbpl
-# clpc system regworker pcbpm POC8FY3dFZ1BuMhMusxJHHhqfKFGR2QtFifGN5iK4mdMVfW8spmgJ https://bp.potatocoin.com/bpinfo/pcbpm
-# clpc system regworker pcbpn POC5jfwvR8JAgpS65Q4M7pqe2LxPARi4odnZ6VUKf84NMFtFRgTaU https://bp.potatocoin.com/bpinfo/pcbpn
-# clpc system regworker pcbpo POC6LKnH3Lcse1QV4DcQPfRq6U8XWfRtYBsJjUa4avELBBF32NjGh https://bp.potatocoin.com/bpinfo/pcbpo
-# clpc system regworker pcbpp POC5yXsaZDdmS8xxwVWETCDRnicHwwVpz6f27GJto3NbZMzYKboX8 https://bp.potatocoin.com/bpinfo/pcbpp
-# clpc system regworker pcbpq POC8Bb3bLXYneK6KEAFtz1NT3Ms66SujHvq1mFSRU6hZcVt3KPkoT https://bp.potatocoin.com/bpinfo/pcbpq
-# clpc system regworker pcbpr POC8mq8UoKtX66cYGXCasfp8Mz3mo682sR6Hqp31iWPNviBehUsFB https://bp.potatocoin.com/bpinfo/pcbpr
-# clpc system regworker pcbps POC8ApyXCAR8T9HgncNDTmYwkSvjW2Yh8uwxs18cyAsqrJPmG8eaZ https://bp.potatocoin.com/bpinfo/pcbps
-# clpc system regworker pcbpt POC7uFsLwmEst9McvLZ93Lddam6qTyrUVQywHSMoLVrZ3UbXnTjVF https://bp.potatocoin.com/bpinfo/pcbpt
-# clpc system regworker pcbpu POC62ERxnM38pswr92AawAxHDSkK77APJnPWbzQmfePGzy9C4Ne9S https://bp.potatocoin.com/bpinfo/pcbpu
-# clpc system regworker pcbpv POC8eijBUwt7biJDRiNCgQAt8f9vt6aH2PH26z4TDiSKKDnNZustw https://bp.potatocoin.com/bpinfo/pcbpv
-# clpc system regworker pcbpw POC7ZQbAE4qtty453HdYfVFTZM21FRyJsLEovs1QnQxsHprqcfhmz https://bp.potatocoin.com/bpinfo/pcbpw
-# clpc system regworker pcbpx POC7f7e2irGS7WG8CfVKLVeYjvtziXrvAqjabURoLLLiAZcyPHNPa https://bp.potatocoin.com/bpinfo/pcbpx
-# clpc system regworker pcbpy POC78XJpGor7LwBxmsuAZ9S5uK1HG5KffxJwP76bDEzZdcyTwgEaL https://bp.potatocoin.com/bpinfo/pcbpy
-# clpc system regworker pcbpz POC6E3u6rY5sJoy8GwuVHaGmT1A5n5WprQbVTc5kkU1bo9x4xZfZ2 https://bp.potatocoin.com/bpinfo/pcbpz
+# clpc system regworker pcbppcbppcbpa POC7J88XYLxPMJwo1LVWZZnWVJGZ2XmzFBL2pWAWXg8HxtbBpepp5 https://bp.potatocoin.com/bpinfo/pcbppcbppcbpa
+# clpc system regworker pcbppcbppcbpb POC7k9kLtJ98QcG296XYtQXPaFKyFRLwmK3WVJMPBbyAa9VqHCNEB https://bp.potatocoin.com/bpinfo/pcbppcbppcbpb
+# clpc system regworker pcbppcbppcbpc POC581dNfCTAZGXvwMzakkKhcKxYzbT7pZTgwPganRvdyqQ5mzGMm https://bp.potatocoin.com/bpinfo/pcbppcbppcbpc
+# clpc system regworker pcbppcbppcbpd POC6xrVckgLqKtcdTNZSjGGKMwJwecsGpYRNwABXpzPKo4owkDTK2 https://bp.potatocoin.com/bpinfo/pcbppcbppcbpd
+# clpc system regworker pcbppcbppcbpe POC85YhcYSuNPnsjo8opo7mQu7EUzEt896YbFUYLhuz8KYVc7FL91 https://bp.potatocoin.com/bpinfo/pcbppcbppcbpe
+# clpc system regworker pcbppcbppcbpf POC7g9ef2ujrh6coGAyz211fFeebYRWhjM9Uwi32Ep8jTVdyZd8Pu https://bp.potatocoin.com/bpinfo/pcbppcbppcbpf
+# clpc system regworker pcbppcbppcbpg POC7pCSJPxUShiAdtBpVkMAqvAc3B5dfmJqvQvGmsm9YpZdNym52z https://bp.potatocoin.com/bpinfo/pcbppcbppcbpg
+# clpc system regworker pcbppcbppcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr https://bp.potatocoin.com/bpinfo/pcbppcbppcbph
+# clpc system regworker pcbppcbppcbpi POC7Zs8ECjR9eP8AeBWWiGX8rFTkPeTF1MkaognZnpdWRApizmpUH https://bp.potatocoin.com/bpinfo/pcbppcbppcbpi
+# clpc system regworker pcbppcbppcbpj POC7ShDF77XXeH4qCyUFx7msZ2dHUagfFMtyqB3gVEViRHpp7ifxF https://bp.potatocoin.com/bpinfo/pcbppcbppcbpj
+# clpc system regworker pcbppcbppcbpk POC82vn4Jw31Q2cMKj9yys2JEQUVYxEh78dvkc33Aq5DrJf32z8tK https://bp.potatocoin.com/bpinfo/pcbppcbppcbpk
+# clpc system regworker pcbppcbppcbpl POC6eWqhcPG7D3MYyXgJQnDtsf8d4B4cJYE46Qzp2inUDFbH76CsJ https://bp.potatocoin.com/bpinfo/pcbppcbppcbpl
+# clpc system regworker pcbppcbppcbpm POC8FY3dFZ1BuMhMusxJHHhqfKFGR2QtFifGN5iK4mdMVfW8spmgJ https://bp.potatocoin.com/bpinfo/pcbppcbppcbpm
+# clpc system regworker pcbppcbppcbpn POC5jfwvR8JAgpS65Q4M7pqe2LxPARi4odnZ6VUKf84NMFtFRgTaU https://bp.potatocoin.com/bpinfo/pcbppcbppcbpn
+# clpc system regworker pcbppcbppcbpo POC6LKnH3Lcse1QV4DcQPfRq6U8XWfRtYBsJjUa4avELBBF32NjGh https://bp.potatocoin.com/bpinfo/pcbppcbppcbpo
+# clpc system regworker pcbppcbppcbpp POC5yXsaZDdmS8xxwVWETCDRnicHwwVpz6f27GJto3NbZMzYKboX8 https://bp.potatocoin.com/bpinfo/pcbppcbppcbpp
+# clpc system regworker pcbppcbppcbpq POC8Bb3bLXYneK6KEAFtz1NT3Ms66SujHvq1mFSRU6hZcVt3KPkoT https://bp.potatocoin.com/bpinfo/pcbppcbppcbpq
+# clpc system regworker pcbppcbppcbpr POC8mq8UoKtX66cYGXCasfp8Mz3mo682sR6Hqp31iWPNviBehUsFB https://bp.potatocoin.com/bpinfo/pcbppcbppcbpr
+# clpc system regworker pcbppcbppcbps POC8ApyXCAR8T9HgncNDTmYwkSvjW2Yh8uwxs18cyAsqrJPmG8eaZ https://bp.potatocoin.com/bpinfo/pcbppcbppcbps
+# clpc system regworker pcbppcbppcbpt POC7uFsLwmEst9McvLZ93Lddam6qTyrUVQywHSMoLVrZ3UbXnTjVF https://bp.potatocoin.com/bpinfo/pcbppcbppcbpt
+# clpc system regworker pcbppcbppcbpu POC62ERxnM38pswr92AawAxHDSkK77APJnPWbzQmfePGzy9C4Ne9S https://bp.potatocoin.com/bpinfo/pcbppcbppcbpu
+# clpc system regworker pcbppcbppcbpv POC8eijBUwt7biJDRiNCgQAt8f9vt6aH2PH26z4TDiSKKDnNZustw https://bp.potatocoin.com/bpinfo/pcbppcbppcbpv
+# clpc system regworker pcbppcbppcbpw POC7ZQbAE4qtty453HdYfVFTZM21FRyJsLEovs1QnQxsHprqcfhmz https://bp.potatocoin.com/bpinfo/pcbppcbppcbpw
+# clpc system regworker pcbppcbppcbpx POC7f7e2irGS7WG8CfVKLVeYjvtziXrvAqjabURoLLLiAZcyPHNPa https://bp.potatocoin.com/bpinfo/pcbppcbppcbpx
+# clpc system regworker pcbppcbppcbpy POC78XJpGor7LwBxmsuAZ9S5uK1HG5KffxJwP76bDEzZdcyTwgEaL https://bp.potatocoin.com/bpinfo/pcbppcbppcbpy
+# clpc system regworker pcbppcbppcbpz POC6E3u6rY5sJoy8GwuVHaGmT1A5n5WprQbVTc5kkU1bo9x4xZfZ2 https://bp.potatocoin.com/bpinfo/pcbppcbppcbpz
 
-# nodepc --genesis-json ~/.local/share/potato/nodepc/config/genesis.json --agent-name "Potato_pcbpt"  --producer-name "pcbpt" --signature-provider "PC7uFsLwmEst9McvLZ93Lddam6qTyrUVQywHSMoLVrZ3UbXnTjVF=KEY:5KMSDTHrXjeZVB3dA36M9NXYK2UzDTW7RcPLbNtZq5vMLN9UjQk"
-# nodepc --genesis-json ~/.local/share/potato/nodepc/config/genesis.json --agent-name "Potato_pcbps"  --producer-name "pcbps" --signature-provider "PC8ApyXCAR8T9HgncNDTmYwkSvjW2Yh8uwxs18cyAsqrJPmG8eaZ=KEY:5Jnijcyc8kJW4qX1gHjckJfhwdB7fnFWjstTtTgic6z3VYL9Gw1" --blocks-dir ./blocks --data-dir ./ --http-server-address "" --p2p-listen-endpoint "0.0.0.0:9000" --p2p-peer-address "127.0.0.1:9876"
-# nodepc --genesis-json ~/.local/share/potato/nodepc/config/genesis.json --agent-name "Potato_pcbpss"  --producer-name "pcbpss" --signature-provider "PC6K1vpE6XAX39kKAu2tBD6jJ8XpQzjWhC3X92duyQNBvdrk2zmr=KEY:5KD3hRFXkMYYUurVC3myJo9FRmT9d9XidyNXYSVTKtQ4wegh4Uw" --blocks-dir ./blocks --data-dir ./ --http-server-address "" --p2p-listen-endpoint "0.0.0.0:9001" --p2p-peer-address "127.0.0.1:9876"
+# nodepc --genesis-json ~/.local/share/potato/nodepc/config/genesis.json --agent-name "Potato_pcbppcbppcbpt"  --producer-name "pcbppcbppcbpt" --signature-provider "PC7uFsLwmEst9McvLZ93Lddam6qTyrUVQywHSMoLVrZ3UbXnTjVF=KEY:5KMSDTHrXjeZVB3dA36M9NXYK2UzDTW7RcPLbNtZq5vMLN9UjQk"
+# nodepc --genesis-json ~/.local/share/potato/nodepc/config/genesis.json --agent-name "Potato_pcbppcbppcbps"  --producer-name "pcbppcbppcbps" --signature-provider "PC8ApyXCAR8T9HgncNDTmYwkSvjW2Yh8uwxs18cyAsqrJPmG8eaZ=KEY:5Jnijcyc8kJW4qX1gHjckJfhwdB7fnFWjstTtTgic6z3VYL9Gw1" --blocks-dir ./blocks --data-dir ./ --http-server-address "" --p2p-listen-endpoint "0.0.0.0:9000" --p2p-peer-address "127.0.0.1:9876"
+# nodepc --genesis-json ~/.local/share/potato/nodepc/config/genesis.json --agent-name "Potato_pcbppcbppcbpss"  --producer-name "pcbppcbppcbpss" --signature-provider "PC6K1vpE6XAX39kKAu2tBD6jJ8XpQzjWhC3X92duyQNBvdrk2zmr=KEY:5KD3hRFXkMYYUurVC3myJo9FRmT9d9XidyNXYSVTKtQ4wegh4Uw" --blocks-dir ./blocks --data-dir ./ --http-server-address "" --p2p-listen-endpoint "0.0.0.0:9001" --p2p-peer-address "127.0.0.1:9876"
+
+#screen -dmS sync nodepc --delete-all-blocks --mongodb-wipe
