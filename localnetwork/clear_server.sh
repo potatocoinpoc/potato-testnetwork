@@ -1,0 +1,27 @@
+#!/bin/bash
+cd ./pcbpa && ./clean.sh && cd ..
+cd ./pcbpb && ./clean.sh && cd ..
+cd ./pcbpc && ./clean.sh && cd ..
+cd ./pcbpd && ./clean.sh && cd ..
+cd ./pcbpe && ./clean.sh && cd ..
+cd ./pcbpf && ./clean.sh && cd ..
+cd ./pcbpg && ./clean.sh && cd ..
+cd ./pcbph && ./clean.sh && cd ..
+cd ./pcbpi && ./clean.sh && cd ..
+cd ./pcbpj && ./clean.sh && cd ..
+cd ./pcbpk && ./clean.sh && cd ..
+cd ./pcbpl && ./clean.sh && cd ..
+cd ./pcbpm && ./clean.sh && cd ..
+cd ./pcbpn && ./clean.sh && cd ..
+cd ./pcbpo && ./clean.sh && cd ..
+cd ./pcbpp && ./clean.sh && cd ..
+cd ./pcbpq && ./clean.sh && cd ..
+cd ./pcbpr && ./clean.sh && cd ..
+cd ./pcbps && ./clean.sh && cd ..
+cd ./pcbpt && ./clean.sh && cd ..
+cd ./pcbpu && ./clean.sh && cd ..
+cd ./pcbpv && ./clean.sh && cd ..
+cd ./pcbpw && ./clean.sh && cd ..
+cd ./pcbpx && ./clean.sh && cd ..
+cd ./pcbpy && ./clean.sh && cd ..
+cd ./pcbpz && ./clean.sh && cd ..

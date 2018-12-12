@@ -1,0 +1,27 @@
+#!/bin/bash
+cd ./pcbpa && ./run.sh && cd .. && sleep 1
+cd ./pcbpb && ./run.sh && cd .. && sleep 1
+cd ./pcbpc && ./run.sh && cd .. && sleep 1
+cd ./pcbpd && ./run.sh && cd .. && sleep 1
+cd ./pcbpe && ./run.sh && cd .. && sleep 1
+cd ./pcbpf && ./run.sh && cd .. && sleep 1
+cd ./pcbpg && ./run.sh && cd .. && sleep 1
+cd ./pcbph && ./run.sh && cd .. && sleep 1
+cd ./pcbpi && ./run.sh && cd .. && sleep 1
+cd ./pcbpj/ && ./run.sh && cd .. && sleep 1
+cd ./pcbpk/ && ./run.sh && cd .. && sleep 1
+cd ./pcbpl/ && ./run.sh && cd .. && sleep 1
+cd ./pcbpm/ && ./run.sh && cd .. && sleep 1
+cd ./pcbpn/ && ./run.sh && cd .. && sleep 1
+cd ./pcbpo/ && ./run.sh && cd .. && sleep 1
+cd ./pcbpp/ && ./run.sh && cd .. && sleep 1
+cd ./pcbpq/ && ./run.sh && cd .. && sleep 1
+cd ./pcbpr/ && ./run.sh && cd .. && sleep 1
+cd ./pcbps && ./run.sh && cd .. && sleep 1
+cd ./pcbpt && ./run.sh && cd .. && sleep 1
+cd ./pcbpu && ./run.sh && cd .. && sleep 1
+cd ./pcbpv && ./run.sh && cd .. && sleep 1
+cd ./pcbpw && ./run.sh && cd .. && sleep 1
+cd ./pcbpx && ./run.sh && cd .. && sleep 1
+cd ./pcbpy && ./run.sh && cd .. && sleep 1
+cd ./pcbpz && ./run.sh && cd .. && sleep 1
