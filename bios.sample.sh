@@ -96,8 +96,8 @@ clpc create account potato pc.saving POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGY
 clpc create account potato pc.stake POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV -p potato
 clpc create account potato pc.vpay POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV -p potato
 
-clpc set contract pc.token build/contracts/pc.token -p pc.token
-clpc set contract pc.msig build/contracts/pc.msig -p pc.msig
+#clpc set contract pc.token build/contracts/pc.token -p pc.token
+#clpc set contract pc.msig build/contracts/pc.msig -p pc.msig
 #new
 clpc set contract pc.token build/pc.token -p pc.token
 clpc set contract pc.msig build/pc.msig -p pc.msig
@@ -105,7 +105,7 @@ clpc set contract pc.msig build/pc.msig -p pc.msig
 clpc push action pc.token create '["potato", "1000000000000.0000 POC", 0, 0, 0]' -p pc.token
 clpc push action pc.token issue '["potato", "1000000000000.0000 POC", "issue"]' -p potato
 
-clpc set contract potato build/contracts/pc.system -p potato
+#clpc set contract potato build/contracts/pc.system -p potato
 #new
 clpc set contract potato build/pc.system -p potato
 clpc push action potato init '[0, "4,POC"]' -p potato@active
@@ -290,7 +290,13 @@ clpc push action potato updateauth '{"account": "pc.vpay", "permission": "active
 
 #clpc transfer potato hellohellohellohello "10.0000 POC" "init"
 
-
+#
+# clpc push action pc.token create '["potato", "1000000000000.0000 PTC", 0, 0, 0]' -p pc.token
+# clpc push action pc.token issue '["potato", "1000000000000.0000 PTC", "issue"]' -p potato
+# clpc push action pc.token create '["potato", "1000000000000.0000 PCNY", 0, 0, 0]' -p pc.token
+# clpc push action pc.token issue '["potato", "1000000000000.0000 PCNY", "issue"]' -p potato
+# clpc push action pc.token create '["potato", "1000000000000.0000 ZZB", 0, 0, 0]' -p pc.token
+# clpc push action pc.token issue '["potato", "1000000000000.0000 ZZB", "issue"]' -p potato
 
 #clpc system listworkers
 #clpc get schedule
