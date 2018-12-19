@@ -1,3 +1,3 @@
 #!/bin/bash
 
-screen -dmS pcbpi nodepc --genesis-json ../genesis.json --blocks-dir ./blocks --config-dir ./ --data-dir ./ 
+screen -dmS pcbpi nodepc --blocks-dir ./blocks --config-dir ./ --data-dir ./ 
