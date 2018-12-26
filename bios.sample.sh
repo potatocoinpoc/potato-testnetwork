@@ -333,3 +333,4 @@ clpc push action potato updateauth '{"account": "pc.vpay", "permission": "active
 # nodepc --genesis-json ~/.local/share/potato/nodepc/config/genesis.json --agent-name "Potato_pcbppcbppcbpss"  --producer-name "pcbppcbppcbpss" --signature-provider "PC6K1vpE6XAX39kKAu2tBD6jJ8XpQzjWhC3X92duyQNBvdrk2zmr=KEY:5KD3hRFXkMYYUurVC3myJo9FRmT9d9XidyNXYSVTKtQ4wegh4Uw" --blocks-dir ./blocks --data-dir ./ --http-server-address "" --p2p-listen-endpoint "0.0.0.0:9001" --p2p-peer-address "127.0.0.1:9876"
 
 #screen -dmS sync nodepc --delete-all-blocks --mongodb-wipe
+#screen -dmS sync nodepc --hard-replay-blockchain --mongodb-wipe
