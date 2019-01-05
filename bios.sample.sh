@@ -96,20 +96,14 @@ clpc create account potato pc.saving POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGY
 clpc create account potato pc.stake POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV -p potato
 clpc create account potato pc.vpay POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV -p potato
 
-#clpc set contract pc.token build/contracts/pc.token -p pc.token
-#clpc set contract pc.msig build/contracts/pc.msig -p pc.msig
-#new
 clpc set contract pc.token build/pc.token -p pc.token
 clpc set contract pc.msig build/pc.msig -p pc.msig
 
 clpc push action pc.token create '["potato", "1000000000000.0000 POC", 0, 0, 0]' -p pc.token
 clpc push action pc.token issue '["potato", "1000000000000.0000 POC", "issue"]' -p potato
 
-#clpc set contract potato build/contracts/pc.system -p potato
-#new
 clpc set contract potato build/pc.system -p potato
 clpc push action potato init '[0, "4,POC"]' -p potato@active
-
 clpc push action potato setpriv '["pc.msig", 1]' -p potato@active
 
 #注册矿机账号
@@ -279,16 +273,18 @@ clpc push action potato updateauth '{"account": "pc.vpay", "permission": "active
 
 
 
-#clpc create account potato hello POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV -p potato
-#clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hello POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
-#clpc set contract hello build/contracts/hello -p hello
+# clpc create account potato hello POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV -p potato
+# clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hello POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
+# clpc set contract hello build/contracts/hello -p hello
 
-#clpc push action hello hi '["potato"]' -p hello
-#clpc push action hello test '["1.0000 POC", "1.0000 POC"]' -p hello
+# clpc push action hello hi '["potato"]' -p hello
+# clpc push action hello test '["1.0000 POC", "1.0000 POC"]' -p hello
 
-#clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hellohellohellohello POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
+# clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hellohellohellohello POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
 
-#clpc transfer potato hellohellohellohello "10.0000 POC" "init"
+# clpc transfer potato hellohellohellohello "10.0000 POC" "init"
+# clpc system agentbw hellohellohellohello hellohellohellohello '10000.0000 POC' '10000.0000 POC'
+# clpc system agentbw potato hellohellohellohello '10000.0000 POC' '10000.0000 POC' --transfer
 
 #
 # clpc push action pc.token create '["potato", "1000000000000.0000 PTC", 0, 0, 0]' -p pc.token
@@ -297,9 +293,10 @@ clpc push action potato updateauth '{"account": "pc.vpay", "permission": "active
 # clpc push action pc.token issue '["potato", "1000000000000.0000 PCNY", "issue"]' -p potato
 # clpc push action pc.token create '["potato", "1000000000000.0000 ZZB", 0, 0, 0]' -p pc.token
 # clpc push action pc.token issue '["potato", "1000000000000.0000 ZZB", "issue"]' -p potato
+# clpc get currency balance pc.token potato
 
-#clpc system listworkers
-#clpc get schedule
+# clpc system listworkers
+# clpc get schedule
 
 # clpc system regworker pcbppcbppcbppcbpa POC7J88XYLxPMJwo1LVWZZnWVJGZ2XmzFBL2pWAWXg8HxtbBpepp5 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpa
 # clpc system regworker pcbppcbppcbppcbpb POC7k9kLtJ98QcG296XYtQXPaFKyFRLwmK3WVJMPBbyAa9VqHCNEB https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpb
