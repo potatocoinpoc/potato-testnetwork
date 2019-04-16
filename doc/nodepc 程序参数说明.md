@@ -290,7 +290,7 @@ network-version-match = 0
 sync-fetch-span = 100
 
 # maximum sizes of transaction or block messages that are sent without first sending a notice (potato::net_plugin)
-max-implicit-request = 1500
+#max-implicit-request = 1500
 
 # Enable block production, even if the chain is stale. (potato::producer_plugin)
 enable-stale-production = false
