@@ -3,6 +3,7 @@
 #创建本地钱包
 #clpc wallet create
 clpc wallet unlock --password PW5JLQQWJcepKqm2kh5F1UfbQTQtPfo7Abngi1vFvrxa57bMFuNLM
+clpc wallet unlock --password PW5JHk3oJh7oWGSaRkn17XnCCzFARmUeuH3kLWumw1txrayxRuEhL
 #导入私钥
 clpc wallet import --private-key 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3 #POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 clpc wallet import --private-key 5KdC5izmPV6WkY4afTdzzcyx5dyQ2z6Ax9tDCSqFwGBA5twQogz #POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL pcbppcbppcbppcbpa
@@ -281,6 +282,10 @@ clpc push action potato updateauth '{"account": "pc.vpay", "permission": "active
 # clpc push action hello test '["1.0000 POC", "1.0000 POC"]' -p hello
 
 # clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hellohellohellohello POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
+# clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hellohellohellohell1 POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
+
+# clpc transfer potato hellohellohellohello "9000000000.0000 POC" "init"
+# clpc transfer potato hellohellohellohell1 "9000000000.0000 POC" "init"
 
 # clpc transfer potato hellohellohellohello "10.0000 POC" "init"
 # clpc system agentbw hellohellohellohello hellohellohellohello '10000.0000 POC' '10000.0000 POC'
@@ -329,5 +334,5 @@ clpc push action potato updateauth '{"account": "pc.vpay", "permission": "active
 # nodepc --genesis-json ~/.local/share/potato/nodepc/config/genesis.json --agent-name "Potato_pcbppcbppcbps"  --producer-name "pcbppcbppcbps" --signature-provider "PC8ApyXCAR8T9HgncNDTmYwkSvjW2Yh8uwxs18cyAsqrJPmG8eaZ=KEY:5Jnijcyc8kJW4qX1gHjckJfhwdB7fnFWjstTtTgic6z3VYL9Gw1" --blocks-dir ./blocks --data-dir ./ --http-server-address "" --p2p-listen-endpoint "0.0.0.0:9000" --p2p-peer-address "127.0.0.1:9876"
 # nodepc --genesis-json ~/.local/share/potato/nodepc/config/genesis.json --agent-name "Potato_pcbppcbppcbpss"  --producer-name "pcbppcbppcbpss" --signature-provider "PC6K1vpE6XAX39kKAu2tBD6jJ8XpQzjWhC3X92duyQNBvdrk2zmr=KEY:5KD3hRFXkMYYUurVC3myJo9FRmT9d9XidyNXYSVTKtQ4wegh4Uw" --blocks-dir ./blocks --data-dir ./ --http-server-address "" --p2p-listen-endpoint "0.0.0.0:9001" --p2p-peer-address "127.0.0.1:9876"
 
-#screen -dmS sync nodepc --delete-all-blocks --mongodb-wipe
-#screen -dmS sync nodepc --hard-replay-blockchain --mongodb-wipe
+# screen -dmS sync nodepc --delete-all-blocks --mongodb-wipe
+# screen -dmS sync nodepc --hard-replay-blockchain --mongodb-wipe
