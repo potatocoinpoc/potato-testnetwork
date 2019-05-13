@@ -274,18 +274,26 @@ clpc push action potato updateauth '{"account": "pc.vpay", "permission": "active
 
 
 
-# clpc create account potato hello POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV -p potato
+# clpc create account potato hello POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
 # clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hello POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
 # clpc set contract hello build/contracts/hello -p hello
 
 # clpc push action hello hi '["potato"]' -p hello
 # clpc push action hello test '["1.0000 POC", "1.0000 POC"]' -p hello
 
+# clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato dice POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
+# clpc set contract dice build/dice -p dice
+# clpc transfer potato dice "100000.0000 POC" "init"
+# clpc transfer potato hello "100000.0000 POC" "init"
+# clpc set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice","permission":"pc.code"},"weight":1}]}' owner -p hello
+# clpc push action dice bet '["hello", "1.0000 POC", 10]' -p hello
+
 # clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hellohellohellohello POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
 # clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hellohellohellohell1 POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
 
 # clpc transfer potato hellohellohellohello "9000000000.0000 POC" "init"
 # clpc transfer potato hellohellohellohell1 "9000000000.0000 POC" "init"
+# clpc get currency balance pc.token hellohellohellohello 
 
 # clpc transfer potato hellohellohellohello "10.0000 POC" "init"
 # clpc system agentbw hellohellohellohello hellohellohellohello '10000.0000 POC' '10000.0000 POC'
