@@ -282,11 +282,82 @@ clpc push action potato updateauth '{"account": "pc.vpay", "permission": "active
 # clpc push action hello test '["1.0000 POC", "1.0000 POC"]' -p hello
 
 # clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato dice POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
-# clpc set contract dice build/dice -p dice
-# clpc transfer potato dice "100000.0000 POC" "init"
+# clpc set contract dice build/dice -p dice #部署合约
+# clpc set account permission dice active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice","permission":"pc.code"},"weight":1}]}' owner -p dice #授权给自己，不然无法进行转账操作
+# clpc transfer potato dice "100000.0000 POC" "init" #
+
 # clpc transfer potato hello "100000.0000 POC" "init"
 # clpc set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice","permission":"pc.code"},"weight":1}]}' owner -p hello
-# clpc push action dice bet '["hello", "1.0000 POC", 10]' -p hello
+# clpc push action dice bet '["hello", "1.0000 POC", 50]' -p hello
+# clpc get table dice dice bet_stats
+# clpc get table dice dice bet_clear
+# clpc push action dice resolvebet '["hello", "16366898405371293968"]' -p hello
+# clpc push action dice resolvebet '["dice", "16366898405371293968"]' -p dice
+#
+# clpc push action dice resolvebet '["16366898405371293968"]' -p hello
+# clpc push action dice resolvebet '["16366898405371293968"]' -p dice
+# clpc push action dice refundbet '["hello", "16366898405371293968"]' -p hello
+# clpc push action dice refundbet '["hello", "16366898405371293968"]' -p dice
+#
+# clpc push action dice test '[]' -p dice
+
+clpc system newaccount --stake-net "50000.0000 POC" --stake-cpu "50000.0000 POC" --buy-ram-kbytes 8888888 potato dice POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
+clpc set account permission dice active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice","permission":"pc.code"},"weight":1}]}' owner -p dice #授权给自己，不然无法进行转账操作
+clpc set contract dice build/dice -p dice #部署合约
+clpc transfer potato dice "100000.0000 POC" "init" #
+
+clpc -u https://potato.jocky123.com set contract dice -c -p dice
+clpc -u https://potato.jocky123.com set contract dice build/dice -p dice
+clpc -u https://potato.jocky123.com push action dice test '[]' -p dice
+clpc -u https://potato.jocky123.com push action dice bet '["hello", "1.0000 POC", 50]' -p hello
+clpc -u https://potato.jocky123.com push action dice resolvebet '[""]' -p dice
+clpc -u https://potato.jocky123.com get table dice dice bet_stats
+clpc -u https://potato.jocky123.com get table dice dice bet_clear
+###########################################################################################################################################################
+clpc -u https://potato.jocky123.com system newaccount --stake-net "50000.0000 POC" --stake-cpu "50000.0000 POC" --buy-ram-kbytes 8888888 potato dice2 POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
+clpc -u https://potato.jocky123.com set account permission dice2 active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p dice2 #授权给自己，不然无法进行转账操作
+clpc -u https://potato.jocky123.com transfer potato dice2 "300000.0000 POC" "init" 
+clpc -u https://potato.jocky123.com system agentbw dice2 dice2 '100000.0000 POC' '100000.0000 POC'
+clpc -u https://potato.jocky123.com set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p hello
+
+clpc -u https://potato.jocky123.com set contract dice2 -c -p dice2
+clpc -u https://potato.jocky123.com set contract dice2 build/dice -p dice2
+clpc -u https://potato.jocky123.com push action dice2 test '[]' -p dice2
+clpc -u https://potato.jocky123.com push action dice2 test2 '["hello"]' -p dice2
+clpc -u https://potato.jocky123.com push action dice2 bet '["hello", "1.0000 POC", 50]' -p hello
+clpc -u https://potato.jocky123.com push action dice2 resolvebet '[""]' -p dice2
+clpc -u https://potato.jocky123.com get table dice2 dice2 bet_stats
+clpc -u https://potato.jocky123.com get table dice2 dice2 bet_clear -r
+clpc -u https://potato.jocky123.com get table dice2 hello my_clear -r
+
+clpc -u https://potato.jocky123.com get account hello
+clpc -u https://potato.jocky123.com get account dice2
+
+###########################################################################################################################################################
+clpc set account permission dice2 active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p dice2
+clpc set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p hello
+clpc set action permission hello dice2 resolvebet active -p hello
+clpc set contract dice2 -c -p dice2
+clpc set contract dice2 build/dice -p dice2
+clpc push action dice2 test '[]' -p dice2
+clpc push action dice2 bet '["hello", "1.0000 POC", 50]' -p hello
+clpc push action dice2 resolvebet '[""]' -p dice2
+clpc get table dice2 dice2 bet_stats
+clpc get table dice2 dice2 bet_clear
+clpc get table dice2 hello my_clear
+
+# clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato dice2 POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
+# clpc set account permission dice2 active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL", "weight": 1}], "accounts": [{"permission":{"actor": "dice2", "permission": "pc.code"}, "weight": 1}]}' owner -p dice2 #授权给自己，不然无法进行转账操作
+# clpc transfer potato dice2 "100000.0000 POC" "init" #
+# clpc set contract dice2 build/dice -p dice2 #部署合约
+# clpc get table dice2 dice2 bet_stats
+# clpc get table dice2 dice2 bet_clear
+
+# clpc set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p hello
+# clpc push action dice2 bet '["hello", "1.0000 POC", 50]' -p hello
+# clpc push action dice2 resolvebet '[""]' -p dice2
+# clpc push action dice2 refundbet '["hello", ""]' -p hello
+# clpc push action dice2 test '[]' -p dice2
 
 # clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hellohellohellohello POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
 # clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hellohellohellohell1 POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
@@ -304,8 +375,6 @@ clpc push action potato updateauth '{"account": "pc.vpay", "permission": "active
 # clpc push action pc.token issue '["potato", "1000000000000.0000 PTC", "issue"]' -p potato
 # clpc push action pc.token create '["potato", "1000000000000.0000 PCNY", 0, 0, 0]' -p pc.token
 # clpc push action pc.token issue '["potato", "1000000000000.0000 PCNY", "issue"]' -p potato
-# clpc push action pc.token create '["potato", "1000000000000.0000 ZZB", 0, 0, 0]' -p pc.token
-# clpc push action pc.token issue '["potato", "1000000000000.0000 ZZB", "issue"]' -p potato
 # clpc get currency balance pc.token potato
 
 # clpc system listworkers
