@@ -164,32 +164,32 @@ clpc transfer potato pcbppcbppcbppcbpy "9000000000.0000 POC" "init"
 clpc transfer potato pcbppcbppcbppcbpz "9000000000.0000 POC" "init"
 
 #注册矿机
-clpc system regworker pcbppcbppcbppcbpa POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpa
-clpc system regworker pcbppcbppcbppcbpb POC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpb
-clpc system regworker pcbppcbppcbppcbpc POC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpc
-clpc system regworker pcbppcbppcbppcbpd POC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpd
-clpc system regworker pcbppcbppcbppcbpe POC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpe
-clpc system regworker pcbppcbppcbppcbpf POC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpf
-clpc system regworker pcbppcbppcbppcbpg POC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpg
-clpc system regworker pcbppcbppcbppcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbph
-clpc system regworker pcbppcbppcbppcbpi POC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpi
-clpc system regworker pcbppcbppcbppcbpj POC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpj
-clpc system regworker pcbppcbppcbppcbpk POC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpk
-clpc system regworker pcbppcbppcbppcbpl POC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpl
-clpc system regworker pcbppcbppcbppcbpm POC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpm
-clpc system regworker pcbppcbppcbppcbpn POC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpn
-clpc system regworker pcbppcbppcbppcbpo POC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpo
-clpc system regworker pcbppcbppcbppcbpp POC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpp
-clpc system regworker pcbppcbppcbppcbpq POC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpq
-clpc system regworker pcbppcbppcbppcbpr POC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpr
-clpc system regworker pcbppcbppcbppcbps POC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbps
-clpc system regworker pcbppcbppcbppcbpt POC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpt
-clpc system regworker pcbppcbppcbppcbpu POC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpu
-clpc system regworker pcbppcbppcbppcbpv POC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpv
-clpc system regworker pcbppcbppcbppcbpw POC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpw
-clpc system regworker pcbppcbppcbppcbpx POC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpx
-clpc system regworker pcbppcbppcbppcbpy POC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpy
-clpc system regworker pcbppcbppcbppcbpz POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpz
+clpc system regworker pcbppcbppcbppcbpa POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL https://static.jocky123.com/bpinfo/pcbpa
+clpc system regworker pcbppcbppcbppcbpb POC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk https://static.jocky123.com/bpinfo/pcbpb
+clpc system regworker pcbppcbppcbppcbpc POC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF https://static.jocky123.com/bpinfo/pcbpc
+clpc system regworker pcbppcbppcbppcbpd POC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 https://static.jocky123.com/bpinfo/pcbpd
+clpc system regworker pcbppcbppcbppcbpe POC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP https://static.jocky123.com/bpinfo/pcbpe
+clpc system regworker pcbppcbppcbppcbpf POC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 https://static.jocky123.com/bpinfo/pcbpf
+clpc system regworker pcbppcbppcbppcbpg POC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X https://static.jocky123.com/bpinfo/pcbpg
+clpc system regworker pcbppcbppcbppcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr https://static.jocky123.com/bpinfo/pcbph
+clpc system regworker pcbppcbppcbppcbpi POC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D https://static.jocky123.com/bpinfo/pcbpi
+clpc system regworker pcbppcbppcbppcbpj POC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S https://static.jocky123.com/bpinfo/pcbpj
+clpc system regworker pcbppcbppcbppcbpk POC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA https://static.jocky123.com/bpinfo/pcbpk
+clpc system regworker pcbppcbppcbppcbpl POC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV https://static.jocky123.com/bpinfo/pcbpl
+clpc system regworker pcbppcbppcbppcbpm POC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf https://static.jocky123.com/bpinfo/pcbpm
+clpc system regworker pcbppcbppcbppcbpn POC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X https://static.jocky123.com/bpinfo/pcbpn
+clpc system regworker pcbppcbppcbppcbpo POC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA https://static.jocky123.com/bpinfo/pcbpo
+clpc system regworker pcbppcbppcbppcbpp POC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 https://static.jocky123.com/bpinfo/pcbpp
+clpc system regworker pcbppcbppcbppcbpq POC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f https://static.jocky123.com/bpinfo/pcbpq
+clpc system regworker pcbppcbppcbppcbpr POC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT https://static.jocky123.com/bpinfo/pcbpr
+clpc system regworker pcbppcbppcbppcbps POC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz https://static.jocky123.com/bpinfo/pcbps
+clpc system regworker pcbppcbppcbppcbpt POC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC https://static.jocky123.com/bpinfo/pcbpt
+clpc system regworker pcbppcbppcbppcbpu POC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 https://static.jocky123.com/bpinfo/pcbpu
+clpc system regworker pcbppcbppcbppcbpv POC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d https://static.jocky123.com/bpinfo/pcbpv
+clpc system regworker pcbppcbppcbppcbpw POC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ https://static.jocky123.com/bpinfo/pcbpw
+clpc system regworker pcbppcbppcbppcbpx POC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS https://static.jocky123.com/bpinfo/pcbpx
+clpc system regworker pcbppcbppcbppcbpy POC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 https://static.jocky123.com/bpinfo/pcbpy
+clpc system regworker pcbppcbppcbppcbpz POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV https://static.jocky123.com/bpinfo/pcbpz
 
 #抵押
 clpc system agentbw pcbppcbppcbppcbpa pcbppcbppcbppcbpa '4400000000.0000 POC' '4400000000.0000 POC'
@@ -333,6 +333,13 @@ clpc -u https://potato.jocky123.com get table dice2 hello my_clear -r
 clpc -u https://potato.jocky123.com get account hello
 clpc -u https://potato.jocky123.com get account dice2
 
+clpc wallet import --private-key 5KAvNyjtKAN9txKPRjjSnh8cYTr2honVUXLkmM4j5JtP3QsYTEq #POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE #77777777
+clpc -u https://potato.jocky123.com system newaccount --stake-net "50000.0000 POC" --stake-cpu "50000.0000 POC" --buy-ram-kbytes 8888888 potato 77777777 POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE -p potato
+clpc -u https://potato.jocky123.com transfer potato 77777777 "300000.0000 POC" "init" 
+clpc -u https://potato.jocky123.com set account permission 77777777 active '{"threshold": 1,"keys": [{"key": "POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p 77777777
+clpc -u https://potato.jocky123.com push action dice2 bet '["77777777", "1.0000 POC", 50]' -p 77777777
+clpc -u https://potato.jocky123.com get table dice2 77777777 my_clear -r
+
 ###########################################################################################################################################################
 clpc set account permission dice2 active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p dice2
 clpc set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p hello
@@ -345,6 +352,15 @@ clpc push action dice2 resolvebet '[""]' -p dice2
 clpc get table dice2 dice2 bet_stats
 clpc get table dice2 dice2 bet_clear
 clpc get table dice2 hello my_clear
+
+clpc wallet import --private-key 5KAvNyjtKAN9txKPRjjSnh8cYTr2honVUXLkmM4j5JtP3QsYTEq #POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE #77777777
+clpc system newaccount --stake-net "50000.0000 POC" --stake-cpu "50000.0000 POC" --buy-ram-kbytes 8888888 potato 77777777 POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE -p potato
+clpc transfer potato 77777777 "300000.0000 POC" "init" 
+clpc set account permission 77777777 active '{"threshold": 1,"keys": [{"key": "POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p 77777777
+
+clpc push action dice2 bet '["77777777", "1.0000 POC", 50]' -p 77777777
+clpc push action dice2 resolvebet '[""]' -p dice2
+clpc get table dice2 77777777 my_clear -r
 
 # clpc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato dice2 POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
 # clpc set account permission dice2 active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL", "weight": 1}], "accounts": [{"permission":{"actor": "dice2", "permission": "pc.code"}, "weight": 1}]}' owner -p dice2 #授权给自己，不然无法进行转账操作
