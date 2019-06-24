@@ -18,31 +18,32 @@ cd potato
 #指定potato系统账号的公钥
 export LOCAL_CMAKE_FLAGS='-DPOTATO_ROOT_KEY=**** -DCORE_SYMBOL_NAME=***'
 
-./script/potato_build.sh
-#运行后会提示是否更新系统仓库，以匹配开发包，第一次运行时请选择"是"
-
+sudo ./script/potato_build.sh
 ```
+
+**运行后会提示是否更新系统仓库，以安装所需开发包，第一次运行时请选择"是"，需以管理员权限执行**
 
 * `POTATO_ROOT_KEY` 系统账号公钥,默认`POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV`
 * `CORE_SYMBOL_NAME` 系统货币符号，默认`POC`，长度1-7。
+* 如果编译时提示找不到Boost库，执行`export BOOST_ROOT=~/opt/boost`
 
 ### 3.打包和安装
 
 编译完成后，请使用下面的命令进行打包，完成后，会在当前目录生成相应的安装包文件。
-**只能打包当前系统的安装包**
+**只能打包当前系统的安装包，需以管理员权限执行**
 
 ```bash
 cd build/packages
-bash ./generate_package.sh [brew|deb|rpm]
+sudo bash ./generate_package.sh [brew|deb|rpm]
 ls
 
 #ubuntu
 sudo dpkg -i potato-v1.7.3.deb
 
 #redhat
-sudo yum install potato-v1.7.3.rpm
+sudo yum install potato-1.7.3-1.x86_64.rpm
 #或者
-sudo rpm -ivh potato-v1.7.3.rpm
+sudo rpm -ivh potato-1.7.3.x86_64.rpm
 ```
 
 参数说明：
