@@ -165,18 +165,6 @@ wallet_plugin 插件主要私钥生成和保存功能。
 ## 默认配置文件示例
 
 ```ini
-# the endpoint upon which to listen for incoming connections (potato::bnet_plugin)
-bnet-endpoint = 0.0.0.0:4321
-
-# the number of threads to use to process network messages (potato::bnet_plugin)
-# bnet-threads =
-
-# remote endpoint of other node to connect to; Use multiple bnet-connect options as needed to compose a network (potato::bnet_plugin)
-# bnet-connect =
-
-# this peer will request no pending transactions from other nodes (potato::bnet_plugin)
-bnet-no-trx = false
-
 # the location of the blocks directory (absolute path or relative to application data dir) (potato::chain_plugin)
 blocks-dir = "blocks"
 
@@ -350,14 +338,10 @@ plugin = potato::chain_plugin
 plugin = potato::chain_api_plugin
 #plugin = potato::history_plugin
 #plugin = potato::history_api_plugin
-plugin = potato::bnet_plugin
 plugin = potato::net_plugin
 #plugin = potato::net_api_plugin
 plugin = potato::wallet_plugin
 plugin = potato::wallet_api_plugin
-
-#plugin = potato::sql_db_plugin
-#sql_db-uri = mysql://db=potato host=localhost port=3306 user=root password='********'
 
 plugin = potato::mongo_db_plugin
 mongodb-uri = mongodb://127.0.0.1:27017/POTATO

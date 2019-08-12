@@ -3,3 +3,5 @@ newnetwork/*/data/
 testnetwork/*/data/
 localnetwork/*/blocks/
 localnetwork/*/state/
+localnetwork/*/protocol_features/
+localnetwork/*/snapshots/
