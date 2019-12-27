@@ -70,21 +70,21 @@ http://localhost:8888/v1/chain/get_info
 
 ## 2.Clpc别名
 
-`clpc`是一个命令行接口，负责与区块链交互并管理钱包。
+`clpoc`是一个命令行接口，负责与区块链交互并管理钱包。
 
-为了方便起见，我们将创建一个bash别名，用于运行在容器中的`clpc`。在终端，运行：
+为了方便起见，我们将创建一个bash别名，用于运行在容器中的`clpoc`。在终端，运行：
 
 ```bash
-alias clpc='docker exec -it potato /opt/potato/bin/clpc -u http://0.0.0.0:8888 --wallet-url http://0.0.0.0:8888'
+alias clpoc='docker exec -it potato /opt/potato/bin/clpoc -u http://0.0.0.0:8888 --wallet-url http://0.0.0.0:8888'
 ```
 
 ## 3.确认是否安装成功
 
-现在试着在你的终端中运行`clpc --help`。你应该看到一个输出：
+现在试着在你的终端中运行`clpoc --help`。你应该看到一个输出：
 
 ```bash
 Command Line Interface to POTATO Client
-Usage: /opt/potato/bin/clpc [OPTIONS] SUBCOMMAND
+Usage: /opt/potato/bin/clpoc [OPTIONS] SUBCOMMAND
 
 Options:
   -h,--help                   Print this help message and exit

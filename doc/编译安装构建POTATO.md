@@ -106,42 +106,42 @@ docker run --name nodepc -v /path-to-data-dir:/opt/potato/bin/data-dir -p 8888:8
 curl http://127.0.0.1:8888/potato/chain/get_info
 ```
 
-### 在docker中启动nodepc和kpcd
+### 在docker中启动 nodepc 和 kpocd
 
 ```bash
 docker volume create --name=nodepc-data-volume
-docker volume create --name=kpcd-data-volume
+docker volume create --name=kpocd-data-volume
 docker-compose up -d
 ```
 
-在`docker-compose -d`之后，将启动`nodepc`和`kpcd`两个服务。nodepc服务会将端口8888和9876提供给主机。kpcd服务不向主机公开任何端口，只有当在clpc容器中运行clpc时，clpc才可以访问它。
+在`docker-compose -d`之后，将启动`nodepc`和`kpocd`两个服务。nodepc服务会将端口8888和9876提供给主机。 kpocd 服务不向主机公开任何端口，只有当在 clpoc 容器中运行 clpoc 时， clpoc 才可以访问它。
 
-### 执行clpc命令
+### 执行clpoc命令
 
-你可以运行`clpc`通过bash别名
+你可以运行`clpoc`通过bash别名
 
 ```bash
-alias clpc='docker-compose exec kpcd /opt/potato/bin/clpc -u http://nodepcd:8888 --wallet-url http://localhost:8900'
-clpc get info
-clpc get account inita
+alias clpoc='docker-compose exec kpocd /opt/potato/bin/clpoc -u http://nodepcd:8888 --wallet-url http://localhost:8900'
+clpoc get info
+clpoc get account inita
 ```
 
-如果你想在任何地方使用`clpc`命令，你可以在docker-compose.yml指定路径:
+如果你想在任何地方使用`clpoc`命令，你可以在docker-compose.yml指定路径:
 
 ```bash
-alias clpc='docker-compose -f path-to-eos-dir/Docker/docker-compose.yml exec kpcd /opt/potato/bin/clpc -u http://nodepcd:8888 --wallet-url http://localhost:8900'
+alias clpoc='docker-compose -f path-to-eos-dir/Docker/docker-compose.yml exec kpocd /opt/potato/bin/clpoc -u http://nodepcd:8888 --wallet-url http://localhost:8900'
 ```
 
 提交exchange示例合约：
 
 ```bash
-clpc set contract exchange contracts/exchange/
+clpoc set contract exchange contracts/exchange/
 ```
 
-如果你不需要`kpcd`，可以停止使用`kpcd`服务：
+如果你不需要`kpocd`，可以停止使用`kpocd`服务：
 
 ```bash
-docker-compose stop kpcd
+docker-compose stop kpocd
 ```
 
 ### 开发构建客户合约
@@ -182,7 +182,7 @@ docker-compose创建的data卷可以被删除：
 
 ```basg
 docker volume rm nodepc-data-volume
-docker volume rm kpcd-data-volume
+docker volume rm kpocd-data-volume
 ```
 
 ### Docker Hub
@@ -207,18 +207,18 @@ services:
     volumes:
       - nodepc-data-volume:/opt/potato/bin/data-dir
 
-  kpcd:
+  kpocd:
     image: potato/eos:latest
-    command: /opt/potato/bin/kpcd --wallet-dir /opt/potato/bin/data-dir --http-server-address=127.0.0.1:8900
-    hostname: kpcd
+    command: /opt/potato/bin/kpocd --wallet-dir /opt/potato/bin/data-dir --http-server-address=127.0.0.1:8900
+    hostname: kpocd
     links:
       - nodepcd
     volumes:
-      - kpcd-data-volume:/opt/potato/bin/data-dir
+      - kpocd-data-volume:/opt/potato/bin/data-dir
 
 volumes:
   nodepc-data-volume:
-  kpcd-data-volume:
+  kpocd-data-volume:
 ```
 
 注意：默认版本是最新版本，可以将其更改为你想要的版本。
@@ -238,7 +238,7 @@ docker pull potato/potato:v1.0.0
 
 # create volume
 docker volume create --name=nodepc-data-volume
-docker volume create --name=kpcd-data-volume
+docker volume create --name=kpocd-data-volume
 # start containers
 docker-compose -f docker-compose-potato1.0.yaml up -d
 # get chain info

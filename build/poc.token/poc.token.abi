@@ -1,5 +1,5 @@
 {
-    "____comment": "This file was generated with potato-abigen. DO NOT EDIT Tue Dec 25 22:21:43 2018",
+    "____comment": "This file was generated with potato-abigen. DO NOT EDIT Fri Dec 27 14:17:05 2019",
     "version": "potato::abi/1.1",
     "structs": [
         {
@@ -168,14 +168,14 @@
         {
             "name": "accounts",
             "type": "account",
-            "index_type": "i128",
+            "index_type": "name",
             "key_names": [],
             "key_types": []
         },
         {
             "name": "stat",
             "type": "currency_stats",
-            "index_type": "i128",
+            "index_type": "name",
             "key_names": [],
             "key_types": []
         }
