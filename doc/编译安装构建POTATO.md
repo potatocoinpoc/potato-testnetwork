@@ -74,7 +74,7 @@ docker build . -t potato/potato
 docker build -t potato/potato:v1.0.0 --build-arg branch=v1.0.0 .
 ```
 
-默认情况下，pc.system的 symbol 设置为`PC`。在构建Docker镜像时，可以使用 symbol 参数来做到这一点。
+默认情况下，poc.system的 symbol 设置为`PC`。在构建Docker镜像时，可以使用 symbol 参数来做到这一点。
 
 ```bash
 docker build -t potato/potato --build-arg symbol=PC.
@@ -83,7 +83,7 @@ docker build -t potato/potato --build-arg symbol=PC.
 ### 在 docker 中启动 nodepc
 
 ```bash
-docker run --name nodepc -p 8888:8888 -p 9876:9876 -t potato/potato nodepc.sh -e arg1 arg2
+docker run --name nodepc -p 8888:8888 -p 9876:9876 -t potato/potato nodepoc.sh -e arg1 arg2
 ```
 
 默认情况下，所有数据都保存在docker卷中。如果数据过时或损坏，则可以删除它：

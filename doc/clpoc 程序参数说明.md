@@ -72,15 +72,13 @@ Subcommands:
     exec                        Execute proposed transaction
   system                      Send pcoin.system contract action to the blockchain.
     newaccount                  Create an account, buy ram, stake for bandwidth for the account
-    regworker                   Register a new worker
+    regproducer                 Register a new worker
     unregprod                   Unregister an existing worker
-    voteworker                  Vote for a worker
+    voteproducer                Vote for a worker
     listworkers                 List workers
-    agentbw                     Delegate bandwidth
-    unagentbw                   Undelegate bandwidth
+    delegatebw                  Delegate bandwidth
+    undelegatebw                Undelegate bandwidth
     listbw                      List delegated bandwidth
-    bidname                     Name bidding
-    bidnameinfo                 Get bidname info
     buyram                      Buy RAM
     sellram                     Sell RAM
     claimwards                  Claim worker rewards

@@ -1,5 +1,5 @@
 {
-    "____comment": "This file was generated with potato-abigen. DO NOT EDIT Fri Dec 27 14:17:30 2019",
+    "____comment": "This file was generated with potato-abigen. DO NOT EDIT Fri Dec 27 18:04:25 2019",
     "version": "potato::abi/1.1",
     "structs": [
         {
@@ -13,32 +13,6 @@
                 {
                     "name": "hash",
                     "type": "checksum256"
-                }
-            ]
-        },
-        {
-            "name": "agentbw",
-            "base": "",
-            "fields": [
-                {
-                    "name": "from",
-                    "type": "name"
-                },
-                {
-                    "name": "receiver",
-                    "type": "name"
-                },
-                {
-                    "name": "stake_net_quantity",
-                    "type": "asset"
-                },
-                {
-                    "name": "stake_cpu_quantity",
-                    "type": "asset"
-                },
-                {
-                    "name": "transfer",
-                    "type": "bool"
                 }
             ]
         },
@@ -359,6 +333,32 @@
                 {
                     "name": "amount",
                     "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "delegatebw",
+            "base": "",
+            "fields": [
+                {
+                    "name": "from",
+                    "type": "name"
+                },
+                {
+                    "name": "receiver",
+                    "type": "name"
+                },
+                {
+                    "name": "stake_net_quantity",
+                    "type": "asset"
+                },
+                {
+                    "name": "stake_cpu_quantity",
+                    "type": "asset"
+                },
+                {
+                    "name": "transfer",
+                    "type": "bool"
                 }
             ]
         },
@@ -1313,7 +1313,7 @@
             ]
         },
         {
-            "name": "unagentbw",
+            "name": "undelegatebw",
             "base": "",
             "fields": [
                 {
@@ -1558,11 +1558,6 @@
     "types": [],
     "actions": [
         {
-            "name": "agentbw",
-            "type": "agentbw",
-            "ricardian_contract": ""
-        },
-        {
             "name": "bidname",
             "type": "bidname",
             "ricardian_contract": ""
@@ -1615,6 +1610,11 @@
         {
             "name": "defnetloan",
             "type": "defnetloan",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delegatebw",
+            "type": "delegatebw",
             "ricardian_contract": ""
         },
         {
@@ -1773,8 +1773,8 @@
             "ricardian_contract": ""
         },
         {
-            "name": "unagentbw",
-            "type": "unagentbw",
+            "name": "undelegatebw",
+            "type": "undelegatebw",
             "ricardian_contract": ""
         },
         {

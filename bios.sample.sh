@@ -164,113 +164,113 @@ clpoc transfer potato pcbppcbppcbppcbpy "9000000000.0000 POC" "init"
 clpoc transfer potato pcbppcbppcbppcbpz "9000000000.0000 POC" "init"
 
 #注册矿机
-clpoc system regworker pcbppcbppcbppcbpa POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL https://static.jocky123.com/bpinfo/pcbpa
-clpoc system regworker pcbppcbppcbppcbpb POC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk https://static.jocky123.com/bpinfo/pcbpb
-clpoc system regworker pcbppcbppcbppcbpc POC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF https://static.jocky123.com/bpinfo/pcbpc
-clpoc system regworker pcbppcbppcbppcbpd POC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 https://static.jocky123.com/bpinfo/pcbpd
-clpoc system regworker pcbppcbppcbppcbpe POC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP https://static.jocky123.com/bpinfo/pcbpe
-clpoc system regworker pcbppcbppcbppcbpf POC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 https://static.jocky123.com/bpinfo/pcbpf
-clpoc system regworker pcbppcbppcbppcbpg POC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X https://static.jocky123.com/bpinfo/pcbpg
-clpoc system regworker pcbppcbppcbppcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr https://static.jocky123.com/bpinfo/pcbph
-clpoc system regworker pcbppcbppcbppcbpi POC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D https://static.jocky123.com/bpinfo/pcbpi
-clpoc system regworker pcbppcbppcbppcbpj POC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S https://static.jocky123.com/bpinfo/pcbpj
-clpoc system regworker pcbppcbppcbppcbpk POC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA https://static.jocky123.com/bpinfo/pcbpk
-clpoc system regworker pcbppcbppcbppcbpl POC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV https://static.jocky123.com/bpinfo/pcbpl
-clpoc system regworker pcbppcbppcbppcbpm POC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf https://static.jocky123.com/bpinfo/pcbpm
-clpoc system regworker pcbppcbppcbppcbpn POC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X https://static.jocky123.com/bpinfo/pcbpn
-clpoc system regworker pcbppcbppcbppcbpo POC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA https://static.jocky123.com/bpinfo/pcbpo
-clpoc system regworker pcbppcbppcbppcbpp POC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 https://static.jocky123.com/bpinfo/pcbpp
-clpoc system regworker pcbppcbppcbppcbpq POC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f https://static.jocky123.com/bpinfo/pcbpq
-clpoc system regworker pcbppcbppcbppcbpr POC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT https://static.jocky123.com/bpinfo/pcbpr
-clpoc system regworker pcbppcbppcbppcbps POC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz https://static.jocky123.com/bpinfo/pcbps
-clpoc system regworker pcbppcbppcbppcbpt POC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC https://static.jocky123.com/bpinfo/pcbpt
-clpoc system regworker pcbppcbppcbppcbpu POC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 https://static.jocky123.com/bpinfo/pcbpu
-clpoc system regworker pcbppcbppcbppcbpv POC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d https://static.jocky123.com/bpinfo/pcbpv
-clpoc system regworker pcbppcbppcbppcbpw POC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ https://static.jocky123.com/bpinfo/pcbpw
-clpoc system regworker pcbppcbppcbppcbpx POC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS https://static.jocky123.com/bpinfo/pcbpx
-clpoc system regworker pcbppcbppcbppcbpy POC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 https://static.jocky123.com/bpinfo/pcbpy
-clpoc system regworker pcbppcbppcbppcbpz POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV https://static.jocky123.com/bpinfo/pcbpz
+clpoc system regproducer pcbppcbppcbppcbpa POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL https://static.jocky123.com/bpinfo/pcbpa
+clpoc system regproducer pcbppcbppcbppcbpb POC6syu9mCx2zmkp51V5eiZuRBVBbyAgiBNb7hkX7XDQMFKHZuDnk https://static.jocky123.com/bpinfo/pcbpb
+clpoc system regproducer pcbppcbppcbppcbpc POC5Lo8iT5EkmSCASP6THm9kwePJKcbWzdQ3pj2Hmz3pyYamuViuF https://static.jocky123.com/bpinfo/pcbpc
+clpoc system regproducer pcbppcbppcbppcbpd POC7ZH8veauyEUu4dJU5bTRSPHFctiFkV3Fyaj1tWsr83Jf6dmXh8 https://static.jocky123.com/bpinfo/pcbpd
+clpoc system regproducer pcbppcbppcbppcbpe POC6CE8NmWwpcV6ePDiE4vzhyZfpYvmrtugumEpTYauQUMVLT1ZYP https://static.jocky123.com/bpinfo/pcbpe
+clpoc system regproducer pcbppcbppcbppcbpf POC5B1Bf4qLVaCGudWpLV6qo6y2iFMGm2vpd1R19QQCu84eVWijZ1 https://static.jocky123.com/bpinfo/pcbpf
+clpoc system regproducer pcbppcbppcbppcbpg POC5dNbGVNhsyrv8jiPu92SoHPNRb3ChEbtSmpoZNiUAEf2UvuB5X https://static.jocky123.com/bpinfo/pcbpg
+clpoc system regproducer pcbppcbppcbppcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr https://static.jocky123.com/bpinfo/pcbph
+clpoc system regproducer pcbppcbppcbppcbpi POC69X3383RzBZj41k73CSjUNXM5MYGpnDxyPnWUKPEtYQmTBWz4D https://static.jocky123.com/bpinfo/pcbpi
+clpoc system regproducer pcbppcbppcbppcbpj POC7yBtksm8Kkg85r4in4uCbfN77uRwe82apM8jjbhFVDgEgz3w8S https://static.jocky123.com/bpinfo/pcbpj
+clpoc system regproducer pcbppcbppcbppcbpk POC7WnhaKwHpbSidYuh2DF1qAExTRUtPEdZCaZqt75cKcixuQUtdA https://static.jocky123.com/bpinfo/pcbpk
+clpoc system regproducer pcbppcbppcbppcbpl POC7Bn1YDeZ18w2N9DU4KAJxZDt6hk3L7eUwFRAc1hb5bp6xJwxNV https://static.jocky123.com/bpinfo/pcbpl
+clpoc system regproducer pcbppcbppcbppcbpm POC6cNcTC6WTFkKV4C8DoxcTXdDTDKvj3vgZEVDGVFckK1eTNJQtf https://static.jocky123.com/bpinfo/pcbpm
+clpoc system regproducer pcbppcbppcbppcbpn POC8UkmsnCo4GxDihbKwgoZY6f2QLSMEqBZ2frGLckxrCHrz15r7X https://static.jocky123.com/bpinfo/pcbpn
+clpoc system regproducer pcbppcbppcbppcbpo POC8Smcv2eMoFcp1EQSBxcAeuBowSS9xesuHjhvTnK4AACjRycTVA https://static.jocky123.com/bpinfo/pcbpo
+clpoc system regproducer pcbppcbppcbppcbpp POC57VTWSiPyx45cSWGdGNtAZnmpqMrAvASQmL9hmXnoLNrgadwf7 https://static.jocky123.com/bpinfo/pcbpp
+clpoc system regproducer pcbppcbppcbppcbpq POC5dt9CWCKM1scrWpFsRbzY71Up9UYFmJs1ySFKLJDGdYJmgEH3f https://static.jocky123.com/bpinfo/pcbpq
+clpoc system regproducer pcbppcbppcbppcbpr POC8FdMPpPxpG5QAqGLncY5kBrEQ9NXPKCKnLH6oWDMPR8q8BrEmT https://static.jocky123.com/bpinfo/pcbpr
+clpoc system regproducer pcbppcbppcbppcbps POC8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz https://static.jocky123.com/bpinfo/pcbps
+clpoc system regproducer pcbppcbppcbppcbpt POC7Ef4kuyTbXbtSPP5Bgethvo6pbitpuEz2RMWhXb8LXxEgcR7MC https://static.jocky123.com/bpinfo/pcbpt
+clpoc system regproducer pcbppcbppcbppcbpu POC5n442Qz4yVc4LbdPCDnxNSseAiUCrNjRxAfPhUvM8tWS5svid6 https://static.jocky123.com/bpinfo/pcbpu
+clpoc system regproducer pcbppcbppcbppcbpv POC5y3Tm1czTCia3o3JidVKmC78J9gRQU8qHjmRjFxTyhh2vxvF5d https://static.jocky123.com/bpinfo/pcbpv
+clpoc system regproducer pcbppcbppcbppcbpw POC5yR5GNn363W3cnet5PE6xWZxa2hDAhmJN5RrB1e3fmJmVNnDRJ https://static.jocky123.com/bpinfo/pcbpw
+clpoc system regproducer pcbppcbppcbppcbpx POC76wwc1zjzRMPQnEL6rTDWLfhN2ByZd6GhDJoWBKWM6M7cUmyfS https://static.jocky123.com/bpinfo/pcbpx
+clpoc system regproducer pcbppcbppcbppcbpy POC63piLomgbAGShNu7zv3whiR52Abz8gVVMRNAqw4apJ8EQKEnQ5 https://static.jocky123.com/bpinfo/pcbpy
+clpoc system regproducer pcbppcbppcbppcbpz POC8ZjbDEi872aLpuuAjnd76NYW6KzPaf6RBSuwXcHmKm7A1sxayV https://static.jocky123.com/bpinfo/pcbpz
 
 #抵押
-clpoc system agentbw pcbppcbppcbppcbpa pcbppcbppcbppcbpa '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpb pcbppcbppcbppcbpb '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpc pcbppcbppcbppcbpc '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpd pcbppcbppcbppcbpd '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpe pcbppcbppcbppcbpe '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpf pcbppcbppcbppcbpf '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpg pcbppcbppcbppcbpg '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbph pcbppcbppcbppcbph '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpi pcbppcbppcbppcbpi '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpj pcbppcbppcbppcbpj '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpk pcbppcbppcbppcbpk '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpl pcbppcbppcbppcbpl '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpm pcbppcbppcbppcbpm '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpn pcbppcbppcbppcbpn '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpo pcbppcbppcbppcbpo '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpp pcbppcbppcbppcbpp '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpq pcbppcbppcbppcbpq '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpr pcbppcbppcbppcbpr '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbps pcbppcbppcbppcbps '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpt pcbppcbppcbppcbpt '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpu pcbppcbppcbppcbpu '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpv pcbppcbppcbppcbpv '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpw pcbppcbppcbppcbpw '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpx pcbppcbppcbppcbpx '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpy pcbppcbppcbppcbpy '4400000000.0000 POC' '4400000000.0000 POC'
-clpoc system agentbw pcbppcbppcbppcbpz pcbppcbppcbppcbpz '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpa pcbppcbppcbppcbpa '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpb pcbppcbppcbppcbpb '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpc pcbppcbppcbppcbpc '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpd pcbppcbppcbppcbpd '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpe pcbppcbppcbppcbpe '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpf pcbppcbppcbppcbpf '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpg pcbppcbppcbppcbpg '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbph pcbppcbppcbppcbph '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpi pcbppcbppcbppcbpi '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpj pcbppcbppcbppcbpj '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpk pcbppcbppcbppcbpk '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpl pcbppcbppcbppcbpl '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpm pcbppcbppcbppcbpm '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpn pcbppcbppcbppcbpn '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpo pcbppcbppcbppcbpo '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpp pcbppcbppcbppcbpp '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpq pcbppcbppcbppcbpq '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpr pcbppcbppcbppcbpr '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbps pcbppcbppcbppcbps '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpt pcbppcbppcbppcbpt '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpu pcbppcbppcbppcbpu '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpv pcbppcbppcbppcbpv '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpw pcbppcbppcbppcbpw '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpx pcbppcbppcbppcbpx '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpy pcbppcbppcbppcbpy '4400000000.0000 POC' '4400000000.0000 POC'
+clpoc system delegatebw pcbppcbppcbppcbpz pcbppcbppcbppcbpz '4400000000.0000 POC' '4400000000.0000 POC'
 
 #投票
-clpoc system voteworker prods pcbppcbppcbppcbpa pcbppcbppcbppcbpa -p pcbppcbppcbppcbpa
-clpoc system voteworker prods pcbppcbppcbppcbpb pcbppcbppcbppcbpb
-clpoc system voteworker prods pcbppcbppcbppcbpc pcbppcbppcbppcbpc
-clpoc system voteworker prods pcbppcbppcbppcbpd pcbppcbppcbppcbpd
-clpoc system voteworker prods pcbppcbppcbppcbpe pcbppcbppcbppcbpe
-clpoc system voteworker prods pcbppcbppcbppcbpf pcbppcbppcbppcbpf
-clpoc system voteworker prods pcbppcbppcbppcbpg pcbppcbppcbppcbpg
-clpoc system voteworker prods pcbppcbppcbppcbph pcbppcbppcbppcbph
-clpoc system voteworker prods pcbppcbppcbppcbpi pcbppcbppcbppcbpi
-clpoc system voteworker prods pcbppcbppcbppcbpj pcbppcbppcbppcbpj
-clpoc system voteworker prods pcbppcbppcbppcbpk pcbppcbppcbppcbpk
-clpoc system voteworker prods pcbppcbppcbppcbpl pcbppcbppcbppcbpl
-clpoc system voteworker prods pcbppcbppcbppcbpm pcbppcbppcbppcbpm
-clpoc system voteworker prods pcbppcbppcbppcbpn pcbppcbppcbppcbpn
-clpoc system voteworker prods pcbppcbppcbppcbpo pcbppcbppcbppcbpo
-clpoc system voteworker prods pcbppcbppcbppcbpp pcbppcbppcbppcbpp
-clpoc system voteworker prods pcbppcbppcbppcbpq pcbppcbppcbppcbpq
-clpoc system voteworker prods pcbppcbppcbppcbpr pcbppcbppcbppcbpr
-clpoc system voteworker prods pcbppcbppcbppcbps pcbppcbppcbppcbps
-clpoc system voteworker prods pcbppcbppcbppcbpt pcbppcbppcbppcbpt
-clpoc system voteworker prods pcbppcbppcbppcbpu pcbppcbppcbppcbpu
-clpoc system voteworker prods pcbppcbppcbppcbpv pcbppcbppcbppcbpv
-clpoc system voteworker prods pcbppcbppcbppcbpw pcbppcbppcbppcbpw
-clpoc system voteworker prods pcbppcbppcbppcbpx pcbppcbppcbppcbpx
-clpoc system voteworker prods pcbppcbppcbppcbpy pcbppcbppcbppcbpy
-clpoc system voteworker prods pcbppcbppcbppcbpz pcbppcbppcbppcbpz
+clpoc system voteproducer prods pcbppcbppcbppcbpa pcbppcbppcbppcbpa -p pcbppcbppcbppcbpa
+clpoc system voteproducer prods pcbppcbppcbppcbpb pcbppcbppcbppcbpb
+clpoc system voteproducer prods pcbppcbppcbppcbpc pcbppcbppcbppcbpc
+clpoc system voteproducer prods pcbppcbppcbppcbpd pcbppcbppcbppcbpd
+clpoc system voteproducer prods pcbppcbppcbppcbpe pcbppcbppcbppcbpe
+clpoc system voteproducer prods pcbppcbppcbppcbpf pcbppcbppcbppcbpf
+clpoc system voteproducer prods pcbppcbppcbppcbpg pcbppcbppcbppcbpg
+clpoc system voteproducer prods pcbppcbppcbppcbph pcbppcbppcbppcbph
+clpoc system voteproducer prods pcbppcbppcbppcbpi pcbppcbppcbppcbpi
+clpoc system voteproducer prods pcbppcbppcbppcbpj pcbppcbppcbppcbpj
+clpoc system voteproducer prods pcbppcbppcbppcbpk pcbppcbppcbppcbpk
+clpoc system voteproducer prods pcbppcbppcbppcbpl pcbppcbppcbppcbpl
+clpoc system voteproducer prods pcbppcbppcbppcbpm pcbppcbppcbppcbpm
+clpoc system voteproducer prods pcbppcbppcbppcbpn pcbppcbppcbppcbpn
+clpoc system voteproducer prods pcbppcbppcbppcbpo pcbppcbppcbppcbpo
+clpoc system voteproducer prods pcbppcbppcbppcbpp pcbppcbppcbppcbpp
+clpoc system voteproducer prods pcbppcbppcbppcbpq pcbppcbppcbppcbpq
+clpoc system voteproducer prods pcbppcbppcbppcbpr pcbppcbppcbppcbpr
+clpoc system voteproducer prods pcbppcbppcbppcbps pcbppcbppcbppcbps
+clpoc system voteproducer prods pcbppcbppcbppcbpt pcbppcbppcbppcbpt
+clpoc system voteproducer prods pcbppcbppcbppcbpu pcbppcbppcbppcbpu
+clpoc system voteproducer prods pcbppcbppcbppcbpv pcbppcbppcbppcbpv
+clpoc system voteproducer prods pcbppcbppcbppcbpw pcbppcbppcbppcbpw
+clpoc system voteproducer prods pcbppcbppcbppcbpx pcbppcbppcbppcbpx
+clpoc system voteproducer prods pcbppcbppcbppcbpy pcbppcbppcbppcbpy
+clpoc system voteproducer prods pcbppcbppcbppcbpz pcbppcbppcbppcbpz
 
 #块奖励
 #clpoc system claimrewards pcbppcbppcbppcbpa
 
 #bios辞职
-clpoc push action potato updateauth '{"account": "potato", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.prods", "permission": "active"}}]}}' -p potato@owner
-clpoc push action potato updateauth '{"account": "potato", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.prods", "permission": "active"}}]}}' -p potato@active
-clpoc push action potato updateauth '{"account": "pc.bpay", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.bpay", "permission": "active"}}]}}' -p pc.bpay@owner
-clpoc push action potato updateauth '{"account": "pc.bpay", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.bpay", "permission": "active"}}]}}' -p pc.bpay@active
-clpoc push action potato updateauth '{"account": "pc.msig", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.msig", "permission": "active"}}]}}' -p pc.msig@owner
-clpoc push action potato updateauth '{"account": "pc.msig", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.msig", "permission": "active"}}]}}' -p pc.msig@active
-clpoc push action potato updateauth '{"account": "pc.names", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.names", "permission": "active"}}]}}' -p pc.names@owner
-clpoc push action potato updateauth '{"account": "pc.names", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.names", "permission": "active"}}]}}' -p pc.names@active
-clpoc push action potato updateauth '{"account": "pc.ram", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.ram", "permission": "active"}}]}}' -p pc.ram@owner
-clpoc push action potato updateauth '{"account": "pc.ram", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.ram", "permission": "active"}}]}}' -p pc.ram@active
-clpoc push action potato updateauth '{"account": "pc.ramfee", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.ramfee", "permission": "active"}}]}}' -p pc.ramfee@owner
-clpoc push action potato updateauth '{"account": "pc.ramfee", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.ramfee", "permission": "active"}}]}}' -p pc.ramfee@active
-clpoc push action potato updateauth '{"account": "pc.saving", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.saving", "permission": "active"}}]}}' -p pc.saving@owner
-clpoc push action potato updateauth '{"account": "pc.saving", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.saving", "permission": "active"}}]}}' -p pc.saving@active
-clpoc push action potato updateauth '{"account": "pc.stake", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.stake", "permission": "active"}}]}}' -p pc.stake@owner
-clpoc push action potato updateauth '{"account": "pc.stake", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.stake", "permission": "active"}}]}}' -p pc.stake@active
-clpoc push action potato updateauth '{"account": "pc.token", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.token", "permission": "active"}}]}}' -p pc.token@owner
-clpoc push action potato updateauth '{"account": "pc.token", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.token", "permission": "active"}}]}}' -p pc.token@active
-clpoc push action potato updateauth '{"account": "pc.vpay", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.vpay", "permission": "active"}}]}}' -p pc.vpay@owner
-clpoc push action potato updateauth '{"account": "pc.vpay", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "pc.vpay", "permission": "active"}}]}}' -p pc.vpay@active
+clpoc push action potato updateauth '{"account": "potato", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.prods", "permission": "active"}}]}}' -p potato@owner
+clpoc push action potato updateauth '{"account": "potato", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.prods", "permission": "active"}}]}}' -p potato@active
+clpoc push action potato updateauth '{"account": "poc.bpay", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.bpay", "permission": "active"}}]}}' -p poc.bpay@owner
+clpoc push action potato updateauth '{"account": "poc.bpay", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.bpay", "permission": "active"}}]}}' -p poc.bpay@active
+clpoc push action potato updateauth '{"account": "poc.msig", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.msig", "permission": "active"}}]}}' -p poc.msig@owner
+clpoc push action potato updateauth '{"account": "poc.msig", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.msig", "permission": "active"}}]}}' -p poc.msig@active
+clpoc push action potato updateauth '{"account": "poc.names", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.names", "permission": "active"}}]}}' -p poc.names@owner
+clpoc push action potato updateauth '{"account": "poc.names", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.names", "permission": "active"}}]}}' -p poc.names@active
+clpoc push action potato updateauth '{"account": "poc.ram", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.ram", "permission": "active"}}]}}' -p poc.ram@owner
+clpoc push action potato updateauth '{"account": "poc.ram", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.ram", "permission": "active"}}]}}' -p poc.ram@active
+clpoc push action potato updateauth '{"account": "poc.ramfee", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.ramfee", "permission": "active"}}]}}' -p poc.ramfee@owner
+clpoc push action potato updateauth '{"account": "poc.ramfee", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.ramfee", "permission": "active"}}]}}' -p poc.ramfee@active
+clpoc push action potato updateauth '{"account": "poc.saving", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.saving", "permission": "active"}}]}}' -p poc.saving@owner
+clpoc push action potato updateauth '{"account": "poc.saving", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.saving", "permission": "active"}}]}}' -p poc.saving@active
+clpoc push action potato updateauth '{"account": "poc.stake", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.stake", "permission": "active"}}]}}' -p poc.stake@owner
+clpoc push action potato updateauth '{"account": "poc.stake", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.stake", "permission": "active"}}]}}' -p poc.stake@active
+clpoc push action potato updateauth '{"account": "poc.token", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.token", "permission": "active"}}]}}' -p poc.token@owner
+clpoc push action potato updateauth '{"account": "poc.token", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.token", "permission": "active"}}]}}' -p poc.token@active
+clpoc push action potato updateauth '{"account": "poc.vpay", "permission": "owner", "parent": "", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.vpay", "permission": "active"}}]}}' -p poc.vpay@owner
+clpoc push action potato updateauth '{"account": "poc.vpay", "permission": "active", "parent": "owner", "auth": {"threshold": 1, "keys": [], "waits": [], "accounts": [{"weight": 1, "permission": {"actor": "poc.vpay", "permission": "active"}}]}}' -p poc.vpay@active
 
 
 
@@ -283,11 +283,11 @@ clpoc push action potato updateauth '{"account": "pc.vpay", "permission": "activ
 
 # clpoc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato dice POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
 # clpoc set contract dice build/dice -p dice #部署合约
-# clpoc set account permission dice active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice","permission":"pc.code"},"weight":1}]}' owner -p dice #授权给自己，不然无法进行转账操作
+# clpoc set account permission dice active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice","permission":"poc.code"},"weight":1}]}' owner -p dice #授权给自己，不然无法进行转账操作
 # clpoc transfer potato dice "100000.0000 POC" "init" #
 
 # clpoc transfer potato hello "100000.0000 POC" "init"
-# clpoc set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice","permission":"pc.code"},"weight":1}]}' owner -p hello
+# clpoc set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice","permission":"poc.code"},"weight":1}]}' owner -p hello
 # clpoc push action dice bet '["hello", "1.0000 POC", 50]' -p hello
 # clpoc get table dice dice bet_stats
 # clpoc get table dice dice bet_clear
@@ -302,7 +302,7 @@ clpoc push action potato updateauth '{"account": "pc.vpay", "permission": "activ
 # clpoc push action dice test '[]' -p dice
 
 clpoc system newaccount --stake-net "50000.0000 POC" --stake-cpu "50000.0000 POC" --buy-ram-kbytes 8888888 potato dice POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
-clpoc set account permission dice active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice","permission":"pc.code"},"weight":1}]}' owner -p dice #授权给自己，不然无法进行转账操作
+clpoc set account permission dice active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice","permission":"poc.code"},"weight":1}]}' owner -p dice #授权给自己，不然无法进行转账操作
 clpoc set contract dice build/dice -p dice #部署合约
 clpoc transfer potato dice "100000.0000 POC" "init" #
 
@@ -315,10 +315,10 @@ clpoc -u https://potato.jocky123.com get table dice dice bet_stats
 clpoc -u https://potato.jocky123.com get table dice dice bet_clear
 ###########################################################################################################################################################
 clpoc -u https://potato.jocky123.com system newaccount --stake-net "50000.0000 POC" --stake-cpu "50000.0000 POC" --buy-ram-kbytes 8888888 potato dice2 POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
-clpoc -u https://potato.jocky123.com set account permission dice2 active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p dice2 #授权给自己，不然无法进行转账操作
+clpoc -u https://potato.jocky123.com set account permission dice2 active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"poc.code"},"weight":1}]}' owner -p dice2 #授权给自己，不然无法进行转账操作
 clpoc -u https://potato.jocky123.com transfer potato dice2 "300000.0000 POC" "init" 
-clpoc -u https://potato.jocky123.com system agentbw dice2 dice2 '100000.0000 POC' '100000.0000 POC'
-clpoc -u https://potato.jocky123.com set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p hello
+clpoc -u https://potato.jocky123.com system delegatebw dice2 dice2 '100000.0000 POC' '100000.0000 POC'
+clpoc -u https://potato.jocky123.com set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"poc.code"},"weight":1}]}' owner -p hello
 
 clpoc -u https://potato.jocky123.com set contract dice2 -c -p dice2
 clpoc -u https://potato.jocky123.com set contract dice2 build/dice -p dice2
@@ -336,14 +336,14 @@ clpoc -u https://potato.jocky123.com get account dice2
 clpoc wallet import --private-key 5KAvNyjtKAN9txKPRjjSnh8cYTr2honVUXLkmM4j5JtP3QsYTEq #POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE #77777777
 clpoc -u https://potato.jocky123.com system newaccount --stake-net "50000.0000 POC" --stake-cpu "50000.0000 POC" --buy-ram-kbytes 8888888 potato 77777777 POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE -p potato
 clpoc -u https://potato.jocky123.com transfer potato 77777777 "300000.0000 POC" "init" 
-clpoc -u https://potato.jocky123.com set account permission 77777777 active '{"threshold": 1,"keys": [{"key": "POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p 77777777
+clpoc -u https://potato.jocky123.com set account permission 77777777 active '{"threshold": 1,"keys": [{"key": "POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"poc.code"},"weight":1}]}' owner -p 77777777
 clpoc -u https://potato.jocky123.com push action dice2 bet '["77777777", "1.0000 POC", 50]' -p 77777777
 clpoc -u https://potato.jocky123.com get table dice2 77777777 my_clear -r
 
 ###########################################################################################################################################################
 clpoc system newaccount --stake-net "50000.0000 POC" --stake-cpu "50000.0000 POC" --buy-ram-kbytes 8888888 potato dice2 POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
 clpoc transfer potato dice2 "100000.0000 POC" "init" #
-clpoc set account permission dice2 active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p dice2
+clpoc set account permission dice2 active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"poc.code"},"weight":1}]}' owner -p dice2
 
 clpoc set contract dice2 -c -p dice2
 clpoc set contract dice2 build/dice -p dice2
@@ -354,7 +354,7 @@ clpoc get table dice2 dice2 bet_clear
 
 
 clpoc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato hello POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
-clpoc set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p hello
+clpoc set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"poc.code"},"weight":1}]}' owner -p hello
 clpoc set action permission hello dice2 resolvebet active -p hello
 clpoc transfer potato hello "100000.0000 POC" "init"
 clpoc push action dice2 bet '["hello", "1.0000 POC", 50]' -p hello
@@ -363,20 +363,20 @@ clpoc get table dice2 hello my_clear
 clpoc wallet import --private-key 5KAvNyjtKAN9txKPRjjSnh8cYTr2honVUXLkmM4j5JtP3QsYTEq #POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE #77777777
 clpoc system newaccount --stake-net "50000.0000 POC" --stake-cpu "50000.0000 POC" --buy-ram-kbytes 8888888 potato 77777777 POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE -p potato
 clpoc transfer potato 77777777 "300000.0000 POC" "init" 
-clpoc set account permission 77777777 active '{"threshold": 1,"keys": [{"key": "POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p 77777777
+clpoc set account permission 77777777 active '{"threshold": 1,"keys": [{"key": "POC5VSXtFKr79TRSFXgRLJvxnd1DzSzf9dq144eg9UixAMjB2XxzE","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"poc.code"},"weight":1}]}' owner -p 77777777
 
 clpoc push action dice2 bet '["77777777", "1.0000 POC", 50]' -p 77777777
 clpoc push action dice2 resolvebet '[""]' -p dice2
 clpoc get table dice2 77777777 my_clear -r
 
 # clpoc system newaccount --stake-net "50.0000 POC" --stake-cpu "50.0000 POC" --buy-ram-kbytes 8888888 potato dice2 POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL -p potato
-# clpoc set account permission dice2 active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL", "weight": 1}], "accounts": [{"permission":{"actor": "dice2", "permission": "pc.code"}, "weight": 1}]}' owner -p dice2 #授权给自己，不然无法进行转账操作
+# clpoc set account permission dice2 active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL", "weight": 1}], "accounts": [{"permission":{"actor": "dice2", "permission": "poc.code"}, "weight": 1}]}' owner -p dice2 #授权给自己，不然无法进行转账操作
 # clpoc transfer potato dice2 "100000.0000 POC" "init" #
 # clpoc set contract dice2 build/dice -p dice2 #部署合约
 # clpoc get table dice2 dice2 bet_stats
 # clpoc get table dice2 dice2 bet_clear
 
-# clpoc set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"pc.code"},"weight":1}]}' owner -p hello
+# clpoc set account permission hello active '{"threshold": 1,"keys": [{"key": "POC7n1U9Z2NQeVEvQZYjHCedNXRVWshmmuGH2j3r6bD4c8fH4U8QL","weight": 1}],"accounts": [{"permission":{"actor":"dice2","permission":"poc.code"},"weight":1}]}' owner -p hello
 # clpoc push action dice2 bet '["hello", "1.0000 POC", 50]' -p hello
 # clpoc push action dice2 resolvebet '[""]' -p dice2
 # clpoc push action dice2 refundbet '["hello", ""]' -p hello
@@ -387,48 +387,48 @@ clpoc get table dice2 77777777 my_clear -r
 
 # clpoc transfer potato hellohellohellohello "9000000000.0000 POC" "init"
 # clpoc transfer potato hellohellohellohell1 "9000000000.0000 POC" "init"
-# clpoc get currency balance pc.token hellohellohellohello 
+# clpoc get currency balance poc.token hellohellohellohello 
 
 # clpoc transfer potato hellohellohellohello "10.0000 POC" "init"
-# clpoc system agentbw hellohellohellohello hellohellohellohello '10000.0000 POC' '10000.0000 POC'
-# clpoc system agentbw potato hellohellohellohello '10000.0000 POC' '10000.0000 POC' --transfer
+# clpoc system delegatebw hellohellohellohello hellohellohellohello '10000.0000 POC' '10000.0000 POC'
+# clpoc system delegatebw potato hellohellohellohello '10000.0000 POC' '10000.0000 POC' --transfer
 
 #
-# clpoc push action pc.token create '["potato", "1000000000000.0000 PTC", 0, 0, 0]' -p pc.token
-# clpoc push action pc.token issue '["potato", "1000000000000.0000 PTC", "issue"]' -p potato
-# clpoc push action pc.token create '["potato", "1000000000000.0000 PCNY", 0, 0, 0]' -p pc.token
-# clpoc push action pc.token issue '["potato", "1000000000000.0000 PCNY", "issue"]' -p potato
-# clpoc get currency balance pc.token potato
+# clpoc push action poc.token create '["potato", "1000000000000.0000 PTC", 0, 0, 0]' -p poc.token
+# clpoc push action poc.token issue '["potato", "1000000000000.0000 PTC", "issue"]' -p potato
+# clpoc push action poc.token create '["potato", "1000000000000.0000 PCNY", 0, 0, 0]' -p poc.token
+# clpoc push action poc.token issue '["potato", "1000000000000.0000 PCNY", "issue"]' -p potato
+# clpoc get currency balance poc.token potato
 
 # clpoc system listworkers
 # clpoc get schedule
 
-# clpoc system regworker pcbppcbppcbppcbpa POC7J88XYLxPMJwo1LVWZZnWVJGZ2XmzFBL2pWAWXg8HxtbBpepp5 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpa
-# clpoc system regworker pcbppcbppcbppcbpb POC7k9kLtJ98QcG296XYtQXPaFKyFRLwmK3WVJMPBbyAa9VqHCNEB https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpb
-# clpoc system regworker pcbppcbppcbppcbpc POC581dNfCTAZGXvwMzakkKhcKxYzbT7pZTgwPganRvdyqQ5mzGMm https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpc
-# clpoc system regworker pcbppcbppcbppcbpd POC6xrVckgLqKtcdTNZSjGGKMwJwecsGpYRNwABXpzPKo4owkDTK2 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpd
-# clpoc system regworker pcbppcbppcbppcbpe POC85YhcYSuNPnsjo8opo7mQu7EUzEt896YbFUYLhuz8KYVc7FL91 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpe
-# clpoc system regworker pcbppcbppcbppcbpf POC7g9ef2ujrh6coGAyz211fFeebYRWhjM9Uwi32Ep8jTVdyZd8Pu https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpf
-# clpoc system regworker pcbppcbppcbppcbpg POC7pCSJPxUShiAdtBpVkMAqvAc3B5dfmJqvQvGmsm9YpZdNym52z https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpg
-# clpoc system regworker pcbppcbppcbppcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbph
-# clpoc system regworker pcbppcbppcbppcbpi POC7Zs8ECjR9eP8AeBWWiGX8rFTkPeTF1MkaognZnpdWRApizmpUH https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpi
-# clpoc system regworker pcbppcbppcbppcbpj POC7ShDF77XXeH4qCyUFx7msZ2dHUagfFMtyqB3gVEViRHpp7ifxF https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpj
-# clpoc system regworker pcbppcbppcbppcbpk POC82vn4Jw31Q2cMKj9yys2JEQUVYxEh78dvkc33Aq5DrJf32z8tK https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpk
-# clpoc system regworker pcbppcbppcbppcbpl POC6eWqhcPG7D3MYyXgJQnDtsf8d4B4cJYE46Qzp2inUDFbH76CsJ https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpl
-# clpoc system regworker pcbppcbppcbppcbpm POC8FY3dFZ1BuMhMusxJHHhqfKFGR2QtFifGN5iK4mdMVfW8spmgJ https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpm
-# clpoc system regworker pcbppcbppcbppcbpn POC5jfwvR8JAgpS65Q4M7pqe2LxPARi4odnZ6VUKf84NMFtFRgTaU https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpn
-# clpoc system regworker pcbppcbppcbppcbpo POC6LKnH3Lcse1QV4DcQPfRq6U8XWfRtYBsJjUa4avELBBF32NjGh https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpo
-# clpoc system regworker pcbppcbppcbppcbpp POC5yXsaZDdmS8xxwVWETCDRnicHwwVpz6f27GJto3NbZMzYKboX8 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpp
-# clpoc system regworker pcbppcbppcbppcbpq POC8Bb3bLXYneK6KEAFtz1NT3Ms66SujHvq1mFSRU6hZcVt3KPkoT https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpq
-# clpoc system regworker pcbppcbppcbppcbpr POC8mq8UoKtX66cYGXCasfp8Mz3mo682sR6Hqp31iWPNviBehUsFB https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpr
-# clpoc system regworker pcbppcbppcbppcbps POC8ApyXCAR8T9HgncNDTmYwkSvjW2Yh8uwxs18cyAsqrJPmG8eaZ https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbps
-# clpoc system regworker pcbppcbppcbppcbpt POC7uFsLwmEst9McvLZ93Lddam6qTyrUVQywHSMoLVrZ3UbXnTjVF https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpt
-# clpoc system regworker pcbppcbppcbppcbpu POC62ERxnM38pswr92AawAxHDSkK77APJnPWbzQmfePGzy9C4Ne9S https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpu
-# clpoc system regworker pcbppcbppcbppcbpv POC8eijBUwt7biJDRiNCgQAt8f9vt6aH2PH26z4TDiSKKDnNZustw https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpv
-# clpoc system regworker pcbppcbppcbppcbpw POC7ZQbAE4qtty453HdYfVFTZM21FRyJsLEovs1QnQxsHprqcfhmz https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpw
-# clpoc system regworker pcbppcbppcbppcbpx POC7f7e2irGS7WG8CfVKLVeYjvtziXrvAqjabURoLLLiAZcyPHNPa https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpx
-# clpoc system regworker pcbppcbppcbppcbpy POC78XJpGor7LwBxmsuAZ9S5uK1HG5KffxJwP76bDEzZdcyTwgEaL https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpy
-# clpoc system regworker pcbppcbppcbppcbpz POC6E3u6rY5sJoy8GwuVHaGmT1A5n5WprQbVTc5kkU1bo9x4xZfZ2 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpz
+# clpoc system regproducer pcbppcbppcbppcbpa POC7J88XYLxPMJwo1LVWZZnWVJGZ2XmzFBL2pWAWXg8HxtbBpepp5 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpa
+# clpoc system regproducer pcbppcbppcbppcbpb POC7k9kLtJ98QcG296XYtQXPaFKyFRLwmK3WVJMPBbyAa9VqHCNEB https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpb
+# clpoc system regproducer pcbppcbppcbppcbpc POC581dNfCTAZGXvwMzakkKhcKxYzbT7pZTgwPganRvdyqQ5mzGMm https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpc
+# clpoc system regproducer pcbppcbppcbppcbpd POC6xrVckgLqKtcdTNZSjGGKMwJwecsGpYRNwABXpzPKo4owkDTK2 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpd
+# clpoc system regproducer pcbppcbppcbppcbpe POC85YhcYSuNPnsjo8opo7mQu7EUzEt896YbFUYLhuz8KYVc7FL91 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpe
+# clpoc system regproducer pcbppcbppcbppcbpf POC7g9ef2ujrh6coGAyz211fFeebYRWhjM9Uwi32Ep8jTVdyZd8Pu https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpf
+# clpoc system regproducer pcbppcbppcbppcbpg POC7pCSJPxUShiAdtBpVkMAqvAc3B5dfmJqvQvGmsm9YpZdNym52z https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpg
+# clpoc system regproducer pcbppcbppcbppcbph POC8Znrtgwt8TfpmbVpTKvA2oB8Nqey625CLN8bCN3TEbgx86Dsvr https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbph
+# clpoc system regproducer pcbppcbppcbppcbpi POC7Zs8ECjR9eP8AeBWWiGX8rFTkPeTF1MkaognZnpdWRApizmpUH https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpi
+# clpoc system regproducer pcbppcbppcbppcbpj POC7ShDF77XXeH4qCyUFx7msZ2dHUagfFMtyqB3gVEViRHpp7ifxF https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpj
+# clpoc system regproducer pcbppcbppcbppcbpk POC82vn4Jw31Q2cMKj9yys2JEQUVYxEh78dvkc33Aq5DrJf32z8tK https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpk
+# clpoc system regproducer pcbppcbppcbppcbpl POC6eWqhcPG7D3MYyXgJQnDtsf8d4B4cJYE46Qzp2inUDFbH76CsJ https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpl
+# clpoc system regproducer pcbppcbppcbppcbpm POC8FY3dFZ1BuMhMusxJHHhqfKFGR2QtFifGN5iK4mdMVfW8spmgJ https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpm
+# clpoc system regproducer pcbppcbppcbppcbpn POC5jfwvR8JAgpS65Q4M7pqe2LxPARi4odnZ6VUKf84NMFtFRgTaU https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpn
+# clpoc system regproducer pcbppcbppcbppcbpo POC6LKnH3Lcse1QV4DcQPfRq6U8XWfRtYBsJjUa4avELBBF32NjGh https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpo
+# clpoc system regproducer pcbppcbppcbppcbpp POC5yXsaZDdmS8xxwVWETCDRnicHwwVpz6f27GJto3NbZMzYKboX8 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpp
+# clpoc system regproducer pcbppcbppcbppcbpq POC8Bb3bLXYneK6KEAFtz1NT3Ms66SujHvq1mFSRU6hZcVt3KPkoT https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpq
+# clpoc system regproducer pcbppcbppcbppcbpr POC8mq8UoKtX66cYGXCasfp8Mz3mo682sR6Hqp31iWPNviBehUsFB https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpr
+# clpoc system regproducer pcbppcbppcbppcbps POC8ApyXCAR8T9HgncNDTmYwkSvjW2Yh8uwxs18cyAsqrJPmG8eaZ https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbps
+# clpoc system regproducer pcbppcbppcbppcbpt POC7uFsLwmEst9McvLZ93Lddam6qTyrUVQywHSMoLVrZ3UbXnTjVF https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpt
+# clpoc system regproducer pcbppcbppcbppcbpu POC62ERxnM38pswr92AawAxHDSkK77APJnPWbzQmfePGzy9C4Ne9S https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpu
+# clpoc system regproducer pcbppcbppcbppcbpv POC8eijBUwt7biJDRiNCgQAt8f9vt6aH2PH26z4TDiSKKDnNZustw https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpv
+# clpoc system regproducer pcbppcbppcbppcbpw POC7ZQbAE4qtty453HdYfVFTZM21FRyJsLEovs1QnQxsHprqcfhmz https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpw
+# clpoc system regproducer pcbppcbppcbppcbpx POC7f7e2irGS7WG8CfVKLVeYjvtziXrvAqjabURoLLLiAZcyPHNPa https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpx
+# clpoc system regproducer pcbppcbppcbppcbpy POC78XJpGor7LwBxmsuAZ9S5uK1HG5KffxJwP76bDEzZdcyTwgEaL https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpy
+# clpoc system regproducer pcbppcbppcbppcbpz POC6E3u6rY5sJoy8GwuVHaGmT1A5n5WprQbVTc5kkU1bo9x4xZfZ2 https://bp.potatocoin.com/bpinfo/pcbppcbppcbppcbpz
 
 # nodepc --genesis-json ~/.local/share/potato/nodepc/config/genesis.json --agent-name "Potato_pcbppcbppcbpt"  --producer-name "pcbppcbppcbpt" --signature-provider "PC7uFsLwmEst9McvLZ93Lddam6qTyrUVQywHSMoLVrZ3UbXnTjVF=KEY:5KMSDTHrXjeZVB3dA36M9NXYK2UzDTW7RcPLbNtZq5vMLN9UjQk"
 # nodepc --genesis-json ~/.local/share/potato/nodepc/config/genesis.json --agent-name "Potato_pcbppcbppcbps"  --producer-name "pcbppcbppcbps" --signature-provider "PC8ApyXCAR8T9HgncNDTmYwkSvjW2Yh8uwxs18cyAsqrJPmG8eaZ=KEY:5Jnijcyc8kJW4qX1gHjckJfhwdB7fnFWjstTtTgic6z3VYL9Gw1" --blocks-dir ./blocks --data-dir ./ --http-server-address "" --p2p-listen-endpoint "0.0.0.0:9000" --p2p-peer-address "127.0.0.1:9876"
