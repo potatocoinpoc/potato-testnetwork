@@ -1,19 +1,18 @@
 # 节点程序参数说明
 
-2018-08-01
+2019-12-01
 
 <!-- TOC -->
 
-- [节点程序参数说明](#节点程序参数说明)
-    - [nodepc 程序参数说明](#nodepc-程序参数说明)
-    - [potato::bnet_plugin 插件参数说明](#potatobnet_plugin-插件参数说明)
-        - [potato::chain_plugin 插件参数说明](#potatochain_plugin-插件参数说明)
-        - [potato::http_plugin 插件参数说明](#potatohttp_plugin-插件参数说明)
-        - [potato::mongo_db_plugin 插件参数说明](#potatomongo_db_plugin-插件参数说明)
-        - [potato::net_plugin 插件参数说明](#potatonet_plugin-插件参数说明)
-        - [potato::producer_plugin 插件参数说明](#potatoproducer_plugin-插件参数说明)
-        - [potato::wallet_plugin 插件参数说明](#potatowallet_plugin-插件参数说明)
-    - [默认配置文件示例](#默认配置文件示例)
+- [节点程序参数说明](#%e8%8a%82%e7%82%b9%e7%a8%8b%e5%ba%8f%e5%8f%82%e6%95%b0%e8%af%b4%e6%98%8e)
+  - [nodepc 程序参数说明](#nodepc-%e7%a8%8b%e5%ba%8f%e5%8f%82%e6%95%b0%e8%af%b4%e6%98%8e)
+    - [potato::chain_plugin 插件参数说明](#potatochainplugin-%e6%8f%92%e4%bb%b6%e5%8f%82%e6%95%b0%e8%af%b4%e6%98%8e)
+    - [potato::http_plugin 插件参数说明](#potatohttpplugin-%e6%8f%92%e4%bb%b6%e5%8f%82%e6%95%b0%e8%af%b4%e6%98%8e)
+    - [potato::mongo_db_plugin 插件参数说明](#potatomongodbplugin-%e6%8f%92%e4%bb%b6%e5%8f%82%e6%95%b0%e8%af%b4%e6%98%8e)
+    - [potato::net_plugin 插件参数说明](#potatonetplugin-%e6%8f%92%e4%bb%b6%e5%8f%82%e6%95%b0%e8%af%b4%e6%98%8e)
+    - [potato::producer_plugin 插件参数说明](#potatoproducerplugin-%e6%8f%92%e4%bb%b6%e5%8f%82%e6%95%b0%e8%af%b4%e6%98%8e)
+    - [potato::wallet_plugin 插件参数说明](#potatowalletplugin-%e6%8f%92%e4%bb%b6%e5%8f%82%e6%95%b0%e8%af%b4%e6%98%8e)
+  - [默认配置文件示例](#%e9%bb%98%e8%ae%a4%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6%e7%a4%ba%e4%be%8b)
 
 <!-- /TOC -->
 
@@ -31,18 +30,6 @@
 | -c / --config arg (=config.ini)    | 指定配置文件名（默认名为 config.ini）             |
 | -l / --logconf arg (=logging.json) | 指定日志配置文件名及路径（默认名为 logging.json） |
 | --plugin arg                       | 启用插件，可重复                                  |
-
-## potato::bnet_plugin 插件参数说明
-
-bnet_plugin 插件主要功能是同步区块
-
-| 参数                                | 说明                                           |
-| ----------------------------------- | ---------------------------------------------- |
-| --bnet-endpoint arg (=0.0.0.0:4321) | 监听地址                                       |
-| --bnet-follow-irreversible arg (=0) | 请求其它节点的不可逆块（默认 0）               |
-| --bnet-threads arg                  | 用于处理网络消息的线程数                       |
-| --bnet-connect arg                  | 远程节点地址; 可以根据需要多个节点组成一个网络 |
-| --bnet-no-trx                       | 请求其他节点没有挂起的事务                     |
 
 ### potato::chain_plugin 插件参数说明
 
