@@ -17,7 +17,7 @@ docker pull potato/potato-dev
 开启POTATO节点
 
 ```bash
-docker run --rm --name potato -d -p 8888:8888 -p 9876:9876 -v /tmp/work:/work -v /tmp/potato/data:/mnt/dev/data -v /tmp/potato/config:/mnt/dev/config potato/potato-dev  /bin/bash -c "nodepc -e -p potato --plugin potato::wallet_api_plugin --plugin potato::wallet_plugin --plugin potato::producer_plugin --plugin potato::history_plugin --plugin potato::chain_api_plugin --plugin potato::history_api_plugin --plugin potato::http_plugin -d /mnt/dev/data --config-dir /mnt/dev/config --http-server-address=0.0.0.0:8888 --access-control-allow-origin=* --contracts-console --http-validate-host=false"
+docker run --rm --name potato -d -p 8888:8888 -p 9876:9876 -v /tmp/work:/work -v /tmp/potato/data:/mnt/dev/data -v /tmp/potato/config:/mnt/dev/config potato/potato-dev  /bin/bash -c "nodepc -e -p potato --plugin eosio::wallet_api_plugin --plugin eosio::wallet_plugin --plugin eosio::producer_plugin --plugin eosio::history_plugin --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin --plugin eosio::http_plugin -d /mnt/dev/data --config-dir /mnt/dev/config --http-server-address=0.0.0.0:8888 --access-control-allow-origin=* --contracts-console --http-validate-host=false"
 ```
 
 检查它的工作情况：

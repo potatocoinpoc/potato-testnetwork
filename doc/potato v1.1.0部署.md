@@ -1,11 +1,11 @@
-# Potato V1.7.3 版本部署
+# Potato V1.1.0 版本部署
 
 ## 一. nodepc 编译
 
 ### 1. 下载代码
 
 ```bash
-git clone git@gitlab.com:potato.coin/potato.git --recursive
+git clone ssh://git@183.60.204.38:7022/potato-coin/potato.git --recursive
 #如果没有添加后面的参数，需要使用下面的命令更新子模块
 cd potato
 git submodule update --init --recursive
@@ -15,15 +15,15 @@ git submodule update --init --recursive
 
 ```bash
 cd potato
-#指定potato系统账号的公钥
-export LOCAL_CMAKE_FLAGS='-DPOTATO_ROOT_KEY=**** -DCORE_SYMBOL_NAME=***'
+#指定eosio系统账号的公钥
+export LOCAL_CMAKE_FLAGS='-DEOSIO_ROOT_KEY=**** -DCORE_SYMBOL_NAME=***'
 
-sudo ./script/potato_build.sh
+sudo ./script/eosio_build.sh -y
 ```
 
 **运行后会提示是否更新系统仓库，以安装所需开发包，第一次运行时请选择"是"，需以管理员权限执行**
 
-* `POTATO_ROOT_KEY` 系统账号公钥,默认`POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV`
+* `EOSIO_ROOT_KEY` 系统账号公钥,默认`POC6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV`
 * `CORE_SYMBOL_NAME` 系统货币符号，默认`POC`，长度1-7。
 * 如果编译时提示找不到Boost库，执行`export BOOST_ROOT=~/opt/boost`
 
@@ -38,12 +38,12 @@ sudo bash ./generate_package.sh [brew|deb|rpm]
 ls
 
 #ubuntu
-sudo dpkg -i potato_1.7.3-1_amd64.deb
+sudo dpkg -i potato_1.1.0-1_amd64.deb
 
 #redhat
-sudo yum install potato-1.7.3-1.x86_64.rpm
+sudo yum install potato-1.1.0-1.x86_64.rpm
 #或者
-sudo rpm -ivh potato-1.7.3.x86_64.rpm
+sudo rpm -ivh potato-1.1.0.x86_64.rpm
 ```
 
 参数说明：
